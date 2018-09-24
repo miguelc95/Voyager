@@ -21,6 +21,8 @@ func                   : typefunc ID ABRE_PAREN func1 CIERRA_PAREN bloquefunc;
 
 typefunc               : tipo | VACIO;
 
+bloquefunc             : ABRE_BRACKET bloque2 bloque1 bloquefunc1 CIERRA_BRACKET;
+
 
 
 /*
@@ -47,7 +49,7 @@ fragment N          : ('N'|'n') ;
 fragment P          : ('P'|'p') ;
 fragment R          : ('R'|'r') ;
 fragment X          : ('X'|'x') ;
-fragment QUOTE      : ('\'')    ;
+fragment QUOTE      : ('\"')    ;
 fragment SIGNO      : ('+'|'-') ;
 fragment DIGITO     : ('0'..'9');
 
@@ -74,7 +76,7 @@ TEXTO               : T E X T O;
 
 BOOL                : B O O L;
 
-VACIO               : VACIO;
+VACIO               : V A C I O;
 
 ABRE_PAREN          : ('(');
 
@@ -83,6 +85,10 @@ CIERRA_PAREN        : (')');
 ABRE_BRACKET        : ('{');
 
 CIERRA_BRACKET      : ('}');
+
+ABRE_CORCHETE       : ('[');
+
+CIERRA_CORCHETE     : (']');
 
 SEMI_COLON          : (';');
 
