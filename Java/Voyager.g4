@@ -23,6 +23,15 @@ typefunc               : tipo | VACIO;
 
 bloquefunc             : ABRE_BRACKET bloque2 bloque1 bloquefunc1 CIERRA_BRACKET;
 
+bloquefunc1            : REGRESA expresion | /*epsilon*/;
+
+bloque                 : ABRE_BRACKET bloque1 CIERRA_BRACKET;
+
+vector                 : ABRE_CORCHETE CTE_E CIERRA_CORCHETE | /*epsilon*/;
+
+
+
+
 
 
 /*
@@ -49,7 +58,7 @@ fragment N          : ('N'|'n') ;
 fragment P          : ('P'|'p') ;
 fragment R          : ('R'|'r') ;
 fragment X          : ('X'|'x') ;
-fragment QUOTE      : ('\"')    ;
+fragment QUOTE      : ('"') ;
 fragment SIGNO      : ('+'|'-') ;
 fragment DIGITO     : ('0'..'9');
 
@@ -77,6 +86,8 @@ TEXTO               : T E X T O;
 BOOL                : B O O L;
 
 VACIO               : V A C I O;
+
+REGRESA             : R E G R E S A;
 
 ABRE_PAREN          : ('(');
 
@@ -112,11 +123,11 @@ MENOS_QUE           : ('<');
 
 NO_IGUAL            : ('!');
 
-CTE_STRING          : (QUOTE*QUOTE);
+LETRERO             : QUOTE .*? QUOTE;
 
-CTE_E               : (DIGITO*);
+CTE_E               : DIGITO*;
 
-CTE_F               : (DIGITO*DOT{1}DIGITO+);
+CTE_F               : DIGITO* DOT{1} DIGITO+;
 
 PROGRAMA             : P R O G R A M A;
 
