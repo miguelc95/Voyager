@@ -19,11 +19,21 @@ bloque3                : func bloque3 | /*epsilon*/;
 
 func                   : typefunc ID ABRE_PAREN func1 CIERRA_PAREN bloquefunc;
 
+typeid                 : tipo ID;
+
+func1                  : typeid func2;
+
+func2                  : typeid func2 | /*epsilon*/;
+
+bloquefunc1            : RETURN expresion | /*epsilon*/;
+
+pos                    : cte_e;
+
+tipo                   : ENTERO | FLOTANTE | BOOL;
+
 typefunc               : tipo | VACIO;
 
 bloquefunc             : ABRE_BRACKET bloque2 bloque1 bloquefunc1 CIERRA_BRACKET;
-
-bloquefunc1            : REGRESA expresion | /*epsilon*/;
 
 bloque                 : ABRE_BRACKET bloque1 CIERRA_BRACKET;
 
