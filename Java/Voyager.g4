@@ -29,6 +29,42 @@ bloque                 : ABRE_BRACKET bloque1 CIERRA_BRACKET;
 
 vector                 : ABRE_CORCHETE CTE_E CIERRA_CORCHETE | /*epsilon*/;
 
+vector1                : ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
+
+estatuto               : asignacion | condicion | imprimir | llamada | ciclo;
+
+asignacion             : ID vector1 IGUAL expresion SEMI_COLON;
+
+condicion              : SI ABRE_PAREN expbool CIERRA_PAREN bloque condicion1;
+
+condicion1             : SINO bloque | /*epsilon*/;
+
+declaracion            : VAR tipo ID vector SEMI_COLON;
+
+imprimir               : IMPRIMIR ABRE_PAREN imprimir1 CIERRA_PAREN SEMI_COLON;
+
+imprimir1              : expresion | LETRERO;
+
+ciclo                  : MIENTRAS ABRE_PAREN expbool CIERRA_PAREN bloque;
+
+llamada                : ID ABRE_PAREN parametros CIERRA_PAREN SEMI_COLON;
+
+parametros             : exp parametros1 | /*epsilon*/;
+
+parametros1            : COMA cte_var parametros1 | /*epsilon*/;
+
+expresion              : exp expresion1;
+
+expresion1             : MAS_QUE exp | MENOS_QUE exp | IGUAL_IGUAL exp | DIFERENTE_DE exp | /*epsilon*/;
+
+expbool                : expresion expbool1;
+
+expbool1               : AND expresion | OR expresion | /*epsilon*/;
+
+
+
+
+
 
 
 
@@ -59,9 +95,12 @@ fragment P          : ('P'|'p') ;
 fragment R          : ('R'|'r') ;
 fragment X          : ('X'|'x') ;
 fragment QUOTE      : ('"') ;
+fragment EQUAL      : ('=') ;
+fragment NOT        : ('!') ;
 fragment SIGNO      : ('+'|'-') ;
 fragment DIGITO     : ('0'..'9');
-
+fragment AMPERSAND  : ('&');
+fragment PALITO     : ('|');
 
 
 fragment LOWERCASE  : [a-z] ;
@@ -89,6 +128,8 @@ VACIO               : V A C I O;
 
 REGRESA             : R E G R E S A;
 
+MIENTRAS            : M I E N T R A S;
+
 ABRE_PAREN          : ('(');
 
 CIERRA_PAREN        : (')');
@@ -107,6 +148,8 @@ DOUBLE_DOT          : (':');
 
 DOT                 : ('.');
 
+COMA                 : (',');
+
 SUMA                : ('+');
 
 RESTA               : ('-');
@@ -121,7 +164,13 @@ MAS_QUE             : ('>');
 
 MENOS_QUE           : ('<');
 
-NO_IGUAL            : ('!');
+AND                 : AMPERSAND{2};
+
+OR                 : PALITO{2};
+
+IGUAL_IGUAL         : EQUAL EQUAL;
+
+DIFERENTE_DE        : NOT EQUAL;
 
 LETRERO             : QUOTE .*? QUOTE;
 
