@@ -61,7 +61,9 @@ expbool                : expresion expbool1;
 
 expbool1               : AND expresion | OR expresion | /*epsilon*/;
 
+exp                    : termino exp1;
 
+exp1                   : SUMA exp | RESTA exp | /*epsilon*/;
 
 
 
