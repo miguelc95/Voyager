@@ -1,6 +1,6 @@
 # To run in Java
 
-antlr4 Voyager.g4
+antlr4 Voyager.g4 <br/>
 javac Voyager*.java
 grun Voyager program -gui
 grun Voyager program
