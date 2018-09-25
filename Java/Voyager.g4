@@ -190,9 +190,9 @@ MAS_QUE             : ('>');
 
 MENOS_QUE           : ('<');
 
-AND                 : AMPERSAND{2};
+AND                 : AMPERSAND;
 
-OR                 : PALITO{2};
+OR                 : PALITO;
 
 IGUAL_IGUAL         : EQUAL EQUAL;
 
@@ -202,12 +202,12 @@ LETRERO             : QUOTE .*? QUOTE;
 
 CTE_E               : DIGITO+;
 
-CTE_F               : DIGITO+ DOT{1} DIGITO+;
+CTE_F               : DIGITO+ DOT DIGITO+;
 
 PROGRAMA             : P R O G R A M A;
 
-ID                  : ('\r[A-Za-z][A-Za-z0-9_]*');
-
-NEWLINE             : ('\r'? '\n' | '\r')+ ;
+ID                  : [A-Za-z][A-Za-z0-9_]*;
 
 TEXT                : ('['|'(') .*? (']'|')');
+
+WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines

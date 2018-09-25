@@ -1,1 +1,5 @@
-john SAYS: hello @michael this will not work
+programa {
+    var entero x;
+
+    x = 5;
+}

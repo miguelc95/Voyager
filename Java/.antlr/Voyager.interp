@@ -81,8 +81,8 @@ CTE_E
 CTE_F
 PROGRAMA
 ID
-NEWLINE
 TEXT
+WS
 
 rule names:
 voyager
