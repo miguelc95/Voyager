@@ -25,11 +25,7 @@ func1                  : typeid func2;
 
 func2                  : typeid func2 | /*epsilon*/;
 
-bloquefunc1            : RETURN expresion | /*epsilon*/;
-
-pos                    : cte_e;
-
-tipo                   : ENTERO | FLOTANTE | BOOL;
+bloquefunc1            : REGRESA expresion | /*epsilon*/;
 
 typefunc               : tipo | VACIO;
 
@@ -74,6 +70,24 @@ expbool1               : AND expresion | OR expresion | /*epsilon*/;
 exp                    : termino exp1;
 
 exp1                   : SUMA exp | RESTA exp | /*epsilon*/;
+
+termino                : factor termino2;
+
+termino2               : MULT termino | DIV termino | /*epsilon*/;
+
+factor                 : ABRE_PAREN expresion CIERRA_PAREN | factor2 operando;
+
+factor2                : SUMA | RESTA | /*epsilon*/;
+
+operando               : cte_var | llamada | ID vector1;
+
+cte_var                : variable2 | CTE_E | CTE_F;
+
+variable1              : ID vector1 variable2;
+
+variable2              : ABRE_PAREN parametros CIERRA_PAREN | /*epsilon*/;
+
+tipo                   : ENTERO | FLOTANTE | BOOL;
 
 
 
