@@ -200,9 +200,9 @@ DIFERENTE_DE        : NOT EQUAL;
 
 LETRERO             : QUOTE .*? QUOTE;
 
-CTE_E               : DIGITO*;
+CTE_E               : DIGITO+;
 
-CTE_F               : DIGITO* DOT{1} DIGITO+;
+CTE_F               : DIGITO+ DOT{1} DIGITO+;
 
 PROGRAMA             : P R O G R A M A;
 

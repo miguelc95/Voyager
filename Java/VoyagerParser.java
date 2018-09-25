@@ -1,4 +1,4 @@
-// Generated from /Users/iramD24/Workspace/Compiler/Voyager/Java/Voyager.g4 by ANTLR 4.7.1
+// Generated from Voyager.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -116,6 +116,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_voyager; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterVoyager(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitVoyager(this);
+		}
 	}
 
 	public final VoyagerContext voyager() throws RecognitionException {
@@ -163,6 +171,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_program; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterProgram(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitProgram(this);
+		}
 	}
 
 	public final ProgramContext program() throws RecognitionException {
@@ -204,6 +220,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloqueprogram; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloqueprogram(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloqueprogram(this);
+		}
 	}
 
 	public final BloqueprogramContext bloqueprogram() throws RecognitionException {
@@ -246,6 +270,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloque1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloque1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloque1(this);
+		}
 	}
 
 	public final Bloque1Context bloque1() throws RecognitionException {
@@ -299,6 +331,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloque2; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloque2(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloque2(this);
+		}
 	}
 
 	public final Bloque2Context bloque2() throws RecognitionException {
@@ -353,6 +393,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloque3; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloque3(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloque3(this);
+		}
 	}
 
 	public final Bloque3Context bloque3() throws RecognitionException {
@@ -416,6 +464,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterFunc(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitFunc(this);
+		}
 	}
 
 	public final FuncContext func() throws RecognitionException {
@@ -458,6 +514,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_typeid; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterTypeid(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitTypeid(this);
+		}
 	}
 
 	public final TypeidContext typeid() throws RecognitionException {
@@ -494,6 +558,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterFunc1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitFunc1(this);
+		}
 	}
 
 	public final Func1Context func1() throws RecognitionException {
@@ -530,6 +602,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func2; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterFunc2(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitFunc2(this);
+		}
 	}
 
 	public final Func2Context func2() throws RecognitionException {
@@ -579,6 +659,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloquefunc1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloquefunc1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloquefunc1(this);
+		}
 	}
 
 	public final Bloquefunc1Context bloquefunc1() throws RecognitionException {
@@ -626,6 +714,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_typefunc; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterTypefunc(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitTypefunc(this);
+		}
 	}
 
 	public final TypefuncContext typefunc() throws RecognitionException {
@@ -682,6 +778,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloquefunc; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloquefunc(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloquefunc(this);
+		}
 	}
 
 	public final BloquefuncContext bloquefunc() throws RecognitionException {
@@ -723,6 +827,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bloque; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterBloque(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitBloque(this);
+		}
 	}
 
 	public final BloqueContext bloque() throws RecognitionException {
@@ -758,6 +870,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_vector; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterVector(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitVector(this);
+		}
 	}
 
 	public final VectorContext vector() throws RecognitionException {
@@ -808,6 +928,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_vector1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterVector1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitVector1(this);
+		}
 	}
 
 	public final Vector1Context vector1() throws RecognitionException {
@@ -885,6 +1013,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_estatuto; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterEstatuto(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitEstatuto(this);
+		}
 	}
 
 	public final EstatutoContext estatuto() throws RecognitionException {
@@ -956,6 +1092,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_asignacion; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterAsignacion(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitAsignacion(this);
+		}
 	}
 
 	public final AsignacionContext asignacion() throws RecognitionException {
@@ -1004,6 +1148,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_condicion; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterCondicion(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitCondicion(this);
+		}
 	}
 
 	public final CondicionContext condicion() throws RecognitionException {
@@ -1046,6 +1198,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_condicion1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterCondicion1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitCondicion1(this);
+		}
 	}
 
 	public final Condicion1Context condicion1() throws RecognitionException {
@@ -1103,6 +1263,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_declaracion; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterDeclaracion(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitDeclaracion(this);
+		}
 	}
 
 	public final DeclaracionContext declaracion() throws RecognitionException {
@@ -1146,6 +1314,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_imprimir; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterImprimir(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitImprimir(this);
+		}
 	}
 
 	public final ImprimirContext imprimir() throws RecognitionException {
@@ -1186,6 +1362,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_imprimir1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterImprimir1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitImprimir1(this);
+		}
 	}
 
 	public final Imprimir1Context imprimir1() throws RecognitionException {
@@ -1250,6 +1434,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_ciclo; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterCiclo(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitCiclo(this);
+		}
 	}
 
 	public final CicloContext ciclo() throws RecognitionException {
@@ -1293,6 +1485,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_llamada; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterLlamada(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitLlamada(this);
+		}
 	}
 
 	public final LlamadaContext llamada() throws RecognitionException {
@@ -1335,6 +1535,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_parametros; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterParametros(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitParametros(this);
+		}
 	}
 
 	public final ParametrosContext parametros() throws RecognitionException {
@@ -1383,6 +1591,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_parametros1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterParametros1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitParametros1(this);
+		}
 	}
 
 	public final Parametros1Context parametros1() throws RecognitionException {
@@ -1434,6 +1650,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expresion; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExpresion(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExpresion(this);
+		}
 	}
 
 	public final ExpresionContext expresion() throws RecognitionException {
@@ -1471,6 +1695,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expresion1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExpresion1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExpresion1(this);
+		}
 	}
 
 	public final Expresion1Context expresion1() throws RecognitionException {
@@ -1551,6 +1783,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expbool; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExpbool(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExpbool(this);
+		}
 	}
 
 	public final ExpboolContext expbool() throws RecognitionException {
@@ -1586,6 +1826,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expbool1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExpbool1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExpbool1(this);
+		}
 	}
 
 	public final Expbool1Context expbool1() throws RecognitionException {
@@ -1644,6 +1892,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_exp; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExp(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExp(this);
+		}
 	}
 
 	public final ExpContext exp() throws RecognitionException {
@@ -1679,6 +1935,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_exp1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterExp1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitExp1(this);
+		}
 	}
 
 	public final Exp1Context exp1() throws RecognitionException {
@@ -1747,6 +2011,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_termino; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterTermino(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitTermino(this);
+		}
 	}
 
 	public final TerminoContext termino() throws RecognitionException {
@@ -1782,6 +2054,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_termino2; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterTermino2(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitTermino2(this);
+		}
 	}
 
 	public final Termino2Context termino2() throws RecognitionException {
@@ -1857,6 +2137,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_factor; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterFactor(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitFactor(this);
+		}
 	}
 
 	public final FactorContext factor() throws RecognitionException {
@@ -1906,6 +2194,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_factor2; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterFactor2(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitFactor2(this);
+		}
 	}
 
 	public final Factor2Context factor2() throws RecognitionException {
@@ -1962,6 +2258,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_operando; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterOperando(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitOperando(this);
+		}
 	}
 
 	public final OperandoContext operando() throws RecognitionException {
@@ -2017,6 +2321,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_cte_var; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterCte_var(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitCte_var(this);
+		}
 	}
 
 	public final Cte_varContext cte_var() throws RecognitionException {
@@ -2089,6 +2401,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variable1; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterVariable1(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitVariable1(this);
+		}
 	}
 
 	public final Variable1Context variable1() throws RecognitionException {
@@ -2126,6 +2446,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variable2; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterVariable2(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitVariable2(this);
+		}
 	}
 
 	public final Variable2Context variable2() throws RecognitionException {
@@ -2189,6 +2517,14 @@ public class VoyagerParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tipo; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).enterTipo(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof VoyagerListener ) ((VoyagerListener)listener).exitTipo(this);
+		}
 	}
 
 	public final TipoContext tipo() throws RecognitionException {
