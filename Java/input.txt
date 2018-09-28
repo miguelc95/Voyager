@@ -1,5 +1,7 @@
 programa {
-    var entero x;
-
-    x = 5;
+    vacio hi () {
+	imprimir("hi"); 
+    }
+ 
+    hi();
 }

@@ -21,9 +21,9 @@ func                   : typefunc ID ABRE_PAREN func1 CIERRA_PAREN bloquefunc;
 
 typeid                 : tipo ID;
 
-func1                  : typeid func2;
+func1                  : typeid func2 | /*epsilon*/;
 
-func2                  : typeid func2 | /*epsilon*/;
+func2                  : COMA typeid func2 | /*epsilon*/;
 
 bloquefunc1            : REGRESA expresion | /*epsilon*/;
 
@@ -129,6 +129,7 @@ fragment AMPERSAND  : ('&');
 fragment PALITO     : ('|');
 
 
+
 fragment LOWERCASE  : [a-z] ;
 fragment UPPERCASE  : [A-Z] ;
 
@@ -190,9 +191,9 @@ MAS_QUE             : ('>');
 
 MENOS_QUE           : ('<');
 
-AND                 : AMPERSAND;
+AND                 : AMPERSAND AMPERSAND;
 
-OR                 : PALITO;
+OR                 : PALITO PALITO;
 
 IGUAL_IGUAL         : EQUAL EQUAL;
 
