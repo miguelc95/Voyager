@@ -1,6 +1,6 @@
 programa {
     vacio hi () {
-	imprimir("hi"); 
+	imprimir("hivrvrevr_ecerfer?r/fvv[]er"); 
     }
  
     hi();

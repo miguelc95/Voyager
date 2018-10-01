@@ -81,13 +81,13 @@ factor2                : SUMA | RESTA | /*epsilon*/;
 
 operando               : cte_var | llamada | ID vector1;
 
-cte_var                : variable2 | CTE_E | CTE_F;
+cte_var                : variable2 | CTE_E | CTE_F | CTE_C;
 
 variable1              : ID vector1 variable2;
 
 variable2              : ABRE_PAREN parametros CIERRA_PAREN | /*epsilon*/;
 
-tipo                   : ENTERO | FLOTANTE | BOOL;
+tipo                   : ENTERO | FLOTANTE | BOOL | CHAR;
 
 
 
@@ -144,6 +144,8 @@ SI                  : S I;
 SINO                : S I N O;
 
 ENTERO              : E N T E R O;
+
+CHAR                : C H A R;
 
 FLOTANTE            : F L O T A N T E;
 
@@ -205,7 +207,9 @@ CTE_E               : DIGITO+;
 
 CTE_F               : DIGITO+ DOT DIGITO+;
 
-PROGRAMA             : P R O G R A M A;
+CTE_C               : [A-Za-z0-9];
+
+PROGRAMA            : P R O G R A M A;
 
 ID                  : [A-Za-z][A-Za-z0-9_]*;
 
