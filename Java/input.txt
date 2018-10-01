@@ -2,6 +2,12 @@ programa {
     vacio hi () {
 	imprimir("hivrvrevr_ecerfer?r/fvv[]er"); 
     }
+
+    entero bye () {
+	regresa 1 + 1; 
+    }
  
-    hi();
+   var entero var1;
+   var1 = bye();
+   hi();
 }

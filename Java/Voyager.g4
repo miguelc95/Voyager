@@ -25,7 +25,7 @@ func1                  : typeid func2 |  /*epsilon*/;
 
 func2                  : COMA typeid func2 | /*epsilon*/;
 
-bloquefunc1            : REGRESA expresion | /*epsilon*/;
+bloquefunc1            : REGRESA expresion SEMI_COLON | /*epsilon*/;
 
 typefunc               : tipo | VACIO;
 
@@ -37,7 +37,7 @@ vector                 : ABRE_CORCHETE CTE_E CIERRA_CORCHETE | /*epsilon*/;
 
 vector1                : ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
-estatuto               : asignacion | condicion | imprimir | llamada | ciclo;
+estatuto               : asignacion | condicion | imprimir | (llamada SEMI_COLON) | ciclo;
 
 asignacion             : ID vector1 IGUAL expresion SEMI_COLON;
 
@@ -53,7 +53,7 @@ imprimir1              : expresion | LETRERO;
 
 ciclo                  : MIENTRAS ABRE_PAREN expbool CIERRA_PAREN bloque;
 
-llamada                : ID ABRE_PAREN parametros CIERRA_PAREN SEMI_COLON;
+llamada                : ID ABRE_PAREN parametros CIERRA_PAREN;
 
 parametros             : exp parametros1 | /*epsilon*/;
 
