@@ -21,7 +21,7 @@ func                   : typefunc ID ABRE_PAREN func1 CIERRA_PAREN bloquefunc;
 
 typeid                 : tipo ID;
 
-func1                  : typeid func2 | /*epsilon*/;
+func1                  : typeid func2 |  /*epsilon*/;
 
 func2                  : COMA typeid func2 | /*epsilon*/;
 
@@ -208,7 +208,5 @@ CTE_F               : DIGITO+ DOT DIGITO+;
 PROGRAMA             : P R O G R A M A;
 
 ID                  : [A-Za-z][A-Za-z0-9_]*;
-
-TEXT                : ('['|'(') .*? (']'|')');
 
 WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
