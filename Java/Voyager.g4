@@ -77,7 +77,7 @@ termino2               : MULT termino | DIV termino | /*epsilon*/;
 
 factor                 : ABRE_PAREN expresion CIERRA_PAREN | factor2 operando;
 
-factor2                : SUMA | RESTA | /*epsilon*/;
+factor2                : RESTA | /*epsilon*/;
 
 operando               : cte_var | llamada | ID vector1;
 
@@ -103,6 +103,7 @@ tipo                   : ENTERO | FLOTANTE | BOOL | CHAR;
 fragment A          : ('A'|'a') ;
 fragment B          : ('B'|'b') ;
 fragment C          : ('C'|'c') ;
+fragment D          : ('D'|'d') ;
 fragment E          : ('E'|'e') ;
 fragment F          : ('F'|'f') ;
 fragment G          : ('G'|'g') ;
@@ -121,9 +122,9 @@ fragment P          : ('P'|'p') ;
 fragment R          : ('R'|'r') ;
 fragment X          : ('X'|'x') ;
 fragment QUOTE      : ('"') ;
+fragment APOST      : ('\'') ;
 fragment EQUAL      : ('=') ;
 fragment NOT        : ('!') ;
-fragment SIGNO      : ('+'|'-') ;
 fragment DIGITO     : ('0'..'9');
 fragment AMPERSAND  : ('&');
 fragment PALITO     : ('|');
@@ -132,6 +133,10 @@ fragment PALITO     : ('|');
 
 fragment LOWERCASE  : [a-z] ;
 fragment UPPERCASE  : [A-Z] ;
+
+VERDADERO           : V E R D A D E R O ;
+
+FALSO               : F A L S O ;
 
 FUNC                : F U N C ;
 
@@ -207,7 +212,9 @@ CTE_E               : DIGITO+;
 
 CTE_F               : DIGITO+ DOT DIGITO+;
 
-CTE_C               : [A-Za-z0-9];
+CTE_C               : APOST [A-Za-z0-9] APOST;
+
+CTE_V               : (VERDADERO | FALSO);
 
 PROGRAMA            : P R O G R A M A;
 
