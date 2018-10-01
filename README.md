@@ -1,8 +1,8 @@
 # Set Up
 
-export CLASSPATH=".:/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH"
-alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
-alias grun='java org.antlr.v4.gui.TestRig'
+export CLASSPATH=".:/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" <br/>
+alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'<br/>
+alias grun='java org.antlr.v4.gui.TestRig'<br/>
 
 # To run in Java
 
