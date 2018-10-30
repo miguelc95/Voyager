@@ -14,12 +14,10 @@ bloque1                : estatuto bloque1 | /*epsilon*/;
 bloque2                : declaracion bloque2 | /*epsilon*/;
 bloque3                : func bloque3 | /*epsilon*/;
 
-func                   : typefunc ID ABRE_PAREN func1 CIERRA_PAREN bloquefunc;
+func                   : typefunc ID ABRE_PAREN parametros CIERRA_PAREN bloquefunc;
 
-typeid                 : tipo ID;
-
-func1                  : typeid func2 |  /*epsilon*/;
-func2                  : COMA typeid func2 | /*epsilon*/;
+parametros             : tipo mete_tipo ID mete_id  parametros1 |  /*epsilon*/;
+parametros1            : COMA tipo mete_tipo ID mete_id parametros1 | /*epsilon*/;
 
 bloquefunc1            : REGRESA expresion SEMI_COLON | /*epsilon*/;
 
@@ -28,68 +26,74 @@ typefunc               : tipo | VACIO;
 bloquefunc             : ABRE_BRACKET bloque2 bloque1 bloquefunc1 CIERRA_BRACKET;
 bloque                 : ABRE_BRACKET bloque1 CIERRA_BRACKET;
 
-vector                 : ABRE_CORCHETE CTE_E CIERRA_CORCHETE | /*epsilon*/;
-vector1                : ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
+
+vector                : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
 estatuto               : asignacion | condicion | imprimir | (llamada SEMI_COLON) | ciclo;
 
-asignacion             : ID vector1 IGUAL expresion SEMI_COLON;
+asignacion             : idvector IGUAL expresion SEMI_COLON;
 
-condicion              : SI ABRE_PAREN expbool CIERRA_PAREN lee_condicion bloque condicion1 termina_condicion;
-condicion1             : SINO entra_sino bloque | /*epsilon*/;
+condicion              : SI ABRE_PAREN expresion CIERRA_PAREN lee_condicion bloque condicion1;
+condicion1             : SINO bloque | /*epsilon*/;
 
-declaracion            : VAR tipo ID vector SEMI_COLON;
+declaracion            : VAR tipo idvector SEMI_COLON;
+idvector               : ID | vector;
 
-imprimir               : IMPRIMIR ABRE_PAREN imprimir1 CIERRA_PAREN lee_condicion SEMI_COLON termina_ciclo;
+imprimir               : IMPRIMIR ABRE_PAREN imprimir1 CIERRA_PAREN SEMI_COLON;
 imprimir1              : expresion | LETRERO;
 
-ciclo                  : MIENTRAS entra_ciclo ABRE_PAREN expbool CIERRA_PAREN bloque;
+ciclo                  : MIENTRAS ABRE_PAREN expresion CIERRA_PAREN lee_condicion bloque;
 
-llamada                : ID ABRE_PAREN parametros CIERRA_PAREN;
+llamada                : ID ABRE_PAREN argumentos CIERRA_PAREN;
 
-parametros             : exp parametros1 | /*epsilon*/;
-parametros1            : COMA cte_var parametros1 | /*epsilon*/;
+argumentos             : expresion verifica_tipo argumentos1 | /*epsilon*/;
+argumentos1            : COMA sig_argumento expresion verifica_tipo argumentos1 |  /*epsilon*/;
 
-expresion              : exp expresion1;
-expresion1             : MAS_QUE exp | MENOS_QUE exp | IGUAL_IGUAL exp | DIFERENTE_DE exp | /*epsilon*/;
 
-expbool                : expresion expbool1;
-expbool1               : AND expresion | OR expresion | /*epsilon*/;
+expbool                : exp expbool1;
+expbool1               : MAS_QUE exp | MENOS_QUE exp | IGUAL_IGUAL exp | DIFERENTE_DE exp | /*epsilon*/;
+
+expresion              : expbool expresion1;
+expresion1             : AND expbool | OR expbool | /*epsilon*/;
 
 exp                    : termino exp1;
-exp1                   : SUMA exp | RESTA exp | /*epsilon*/;
+exp1                   : SUMA termino | RESTA termino | /*epsilon*/;
 
 termino                : factor termino2;
-termino2               : MULT termino | DIV termino | /*epsilon*/;
+termino2               : MULT factor | DIV factor| /*epsilon*/;
 
-factor                 : ABRE_PAREN expresion CIERRA_PAREN | factor2 operando;
-factor2                : RESTA | /*epsilon*/;
+factor                 : ABRE_PAREN expresion CIERRA_PAREN | operando;
 
-operando               : cte_var | llamada | ID vector1;
-cte_var                : variable2 | CTE_E | CTE_F | CTE_C;
+operando               : cte_var | llamada | ID | vector;
+cte_var                : CTE_B | CTE_E | CTE_F | CTE_C;
 
-variable1              : ID vector1 variable2;
-variable2              : ABRE_PAREN parametros CIERRA_PAREN | /*epsilon*/;
 
 tipo                   : ENTERO | FLOTANTE | BOOL | CHAR;
 
-/*Puntos neuralgicos de condición */
+/*Puntos neuralgicos de condición *///////////////////////////////////////
+lee_condicion : /*punto neuralgico 1 de if y punto neuralgico 2 de ciclo*/;
+//enterCondición1 es punto neuralgico 3
+//exitCondiciín es el punto neuralgico 2
 
-lee_condicion : /*vacio*/;
-termina_condicion : /*vacio*/;
-entra_sino : /*vacio*/;
+/*Puntos neuralgicos de ciclo *////////////////////////////////////////////
+//enterCiclo es el punto neuralgico 1
+//exitCiclo es mi punto neuralgico 3
 
-/*Puntos neuralgicos de ciclo */
+/*Puntos neuralgicos de llamada a func */////////////////////////////////////
+//enterllamada punto neuralgico 1
+//enter llamada punto neuralgico 2
+verifica_tipo: /* punto neuralgico3 */;
+sig_argumento: /* punto neuralgico4 */;
+//exitllamada punto neuralgico5
+//exit llamada punto neuralgico6
 
-entra_ciclo : /*vacio*/;
-termina_ciclo : /*vacio*/;
-
-
-
-
-
-
-
+/*Puntos neuralgicos de delaración de func */
+//enterfuncpunto neuralgico 1
+mete_tipo: /*punto neuralgico 3 */;
+mete_id: /*punto neuralgico 2 */;
+// ignorados puntos 4 y 5 workspace necesario
+// enterbloquefunc punto neuralgico 6
+// exitfunc punto neuralgico 7
 
 /*
  * Lexer Rules
@@ -209,7 +213,7 @@ CTE_F               : DIGITO+ DOT DIGITO+;
 
 CTE_C               : APOST [A-Za-z0-9] APOST;
 
-CTE_V               : (VERDADERO | FALSO);
+CTE_B               : (VERDADERO | FALSO);
 
 PROGRAMA            : P R O G R A M A;
 

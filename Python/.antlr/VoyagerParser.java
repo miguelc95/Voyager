@@ -1,4 +1,4 @@
-// Generated from /Users/iramD24/Workspace/Compiler/Voyager/Java/Voyager.g4 by ANTLR 4.7.1
+// Generated from /Users/iramD24/Workspace/Compiler/Voyager/Python/Voyager.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;

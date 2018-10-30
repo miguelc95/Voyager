@@ -1,4 +1,4 @@
-// Generated from /Users/miguelcuellar/Desktop/Campus/9no Semestre/Compis/Voyager/Voyager/Java/Voyager.g4 by ANTLR 4.7.1
+// Generated from /Users/iramD24/Workspace/Compiler/Voyager/Java/Voyager.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -22,7 +22,7 @@ public class VoyagerLexer extends Lexer {
 		CIERRA_CORCHETE=21, SEMI_COLON=22, DOUBLE_DOT=23, DOT=24, COMA=25, SUMA=26, 
 		RESTA=27, DIV=28, MULT=29, IGUAL=30, MAS_QUE=31, MENOS_QUE=32, AND=33, 
 		OR=34, IGUAL_IGUAL=35, DIFERENTE_DE=36, LETRERO=37, CTE_E=38, CTE_F=39, 
-		CTE_C=40, CTE_V=41, PROGRAMA=42, ID=43, WS=44;
+		CTE_C=40, CTE_B=41, PROGRAMA=42, ID=43, WS=44;
 	public static String[] channelNames = {
 		"DEFAULT_TOKEN_CHANNEL", "HIDDEN"
 	};
@@ -40,7 +40,7 @@ public class VoyagerLexer extends Lexer {
 		"ABRE_BRACKET", "CIERRA_BRACKET", "ABRE_CORCHETE", "CIERRA_CORCHETE", 
 		"SEMI_COLON", "DOUBLE_DOT", "DOT", "COMA", "SUMA", "RESTA", "DIV", "MULT", 
 		"IGUAL", "MAS_QUE", "MENOS_QUE", "AND", "OR", "IGUAL_IGUAL", "DIFERENTE_DE", 
-		"LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_V", "PROGRAMA", "ID", "WS"
+		"LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_B", "PROGRAMA", "ID", "WS"
 	};
 
 	private static final String[] _LITERAL_NAMES = {
@@ -51,7 +51,7 @@ public class VoyagerLexer extends Lexer {
 		"CIERRA_PAREN", "ABRE_BRACKET", "CIERRA_BRACKET", "ABRE_CORCHETE", "CIERRA_CORCHETE", 
 		"SEMI_COLON", "DOUBLE_DOT", "DOT", "COMA", "SUMA", "RESTA", "DIV", "MULT", 
 		"IGUAL", "MAS_QUE", "MENOS_QUE", "AND", "OR", "IGUAL_IGUAL", "DIFERENTE_DE", 
-		"LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_V", "PROGRAMA", "ID", "WS"
+		"LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_B", "PROGRAMA", "ID", "WS"
 	};
 	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
 
