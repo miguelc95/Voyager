@@ -1,5 +1,7 @@
 # Generated from Voyager.g4 by ANTLR 4.7.1
 from antlr4 import *
+from Python import Armstrong
+
 if __name__ is not None and "." in __name__:
     from .VoyagerParser import VoyagerParser
 else:
