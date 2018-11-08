@@ -14,7 +14,6 @@ def main(argv):
     armstrong = Armstrong()
     walker = ParseTreeWalker()
     walker.walk(armstrong,tree)
-    print("Hola")
 
 
 if __name__ == '__main__':

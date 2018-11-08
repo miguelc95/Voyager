@@ -3,6 +3,10 @@ programa {
 	imprimir("hivrvrevr_ecerfer?r/fvv[]er"); 
     }
 
+    bool hi () {
+        regresa true;
+    }
+
     entero bye () {
 	regresa 1 + 1; 
     }
