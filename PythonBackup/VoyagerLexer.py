@@ -224,7 +224,7 @@ class VoyagerLexer(Lexer):
     CTE_E = 38
     CTE_F = 39
     CTE_C = 40
-    CTE_B = 41
+    CTE_V = 41
     PROGRAMA = 42
     ID = 43
     WS = 44
@@ -243,7 +243,7 @@ class VoyagerLexer(Lexer):
             "ABRE_CORCHETE", "CIERRA_CORCHETE", "SEMI_COLON", "DOUBLE_DOT", 
             "DOT", "COMA", "SUMA", "RESTA", "DIV", "MULT", "IGUAL", "MAS_QUE", 
             "MENOS_QUE", "AND", "OR", "IGUAL_IGUAL", "DIFERENTE_DE", "LETRERO", 
-            "CTE_E", "CTE_F", "CTE_C", "CTE_B", "PROGRAMA", "ID", "WS" ]
+            "CTE_E", "CTE_F", "CTE_C", "CTE_V", "PROGRAMA", "ID", "WS" ]
 
     ruleNames = [ "A", "B", "C", "D", "E", "F", "G", "I", "O", "S", "Y", 
                   "H", "U", "V", "T", "L", "M", "N", "P", "R", "X", "QUOTE", 
@@ -255,7 +255,7 @@ class VoyagerLexer(Lexer):
                   "CIERRA_CORCHETE", "SEMI_COLON", "DOUBLE_DOT", "DOT", 
                   "COMA", "SUMA", "RESTA", "DIV", "MULT", "IGUAL", "MAS_QUE", 
                   "MENOS_QUE", "AND", "OR", "IGUAL_IGUAL", "DIFERENTE_DE", 
-                  "LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_B", "PROGRAMA", 
+                  "LETRERO", "CTE_E", "CTE_F", "CTE_C", "CTE_V", "PROGRAMA", 
                   "ID", "WS" ]
 
     grammarFileName = "Voyager.g4"

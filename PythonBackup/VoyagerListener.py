@@ -1,5 +1,6 @@
 # Generated from Voyager.g4 by ANTLR 4.7.1
 from antlr4 import *
+
 if __name__ is not None and "." in __name__:
     from .VoyagerParser import VoyagerParser
 else:
@@ -71,21 +72,30 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#parametros.
-    def enterParametros(self, ctx:VoyagerParser.ParametrosContext):
+    # Enter a parse tree produced by VoyagerParser#typeid.
+    def enterTypeid(self, ctx:VoyagerParser.TypeidContext):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#parametros.
-    def exitParametros(self, ctx:VoyagerParser.ParametrosContext):
+    # Exit a parse tree produced by VoyagerParser#typeid.
+    def exitTypeid(self, ctx:VoyagerParser.TypeidContext):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#parametros1.
-    def enterParametros1(self, ctx:VoyagerParser.Parametros1Context):
+    # Enter a parse tree produced by VoyagerParser#func1.
+    def enterFunc1(self, ctx:VoyagerParser.Func1Context):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#parametros1.
-    def exitParametros1(self, ctx:VoyagerParser.Parametros1Context):
+    # Exit a parse tree produced by VoyagerParser#func1.
+    def exitFunc1(self, ctx:VoyagerParser.Func1Context):
+        pass
+
+
+    # Enter a parse tree produced by VoyagerParser#func2.
+    def enterFunc2(self, ctx:VoyagerParser.Func2Context):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#func2.
+    def exitFunc2(self, ctx:VoyagerParser.Func2Context):
         pass
 
 
@@ -134,12 +144,12 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#vector_asigna.
-    def enterVector_asigna(self, ctx:VoyagerParser.Vector_asignaContext):
+    # Enter a parse tree produced by VoyagerParser#vector1.
+    def enterVector1(self, ctx:VoyagerParser.Vector1Context):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#vector_asigna.
-    def exitVector_asigna(self, ctx:VoyagerParser.Vector_asignaContext):
+    # Exit a parse tree produced by VoyagerParser#vector1.
+    def exitVector1(self, ctx:VoyagerParser.Vector1Context):
         pass
 
 
@@ -158,15 +168,6 @@ class VoyagerListener(ParseTreeListener):
 
     # Exit a parse tree produced by VoyagerParser#asignacion.
     def exitAsignacion(self, ctx:VoyagerParser.AsignacionContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#idvector_asigna.
-    def enterIdvector_asigna(self, ctx:VoyagerParser.Idvector_asignaContext):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#idvector_asigna.
-    def exitIdvector_asigna(self, ctx:VoyagerParser.Idvector_asignaContext):
         pass
 
 
@@ -194,15 +195,6 @@ class VoyagerListener(ParseTreeListener):
 
     # Exit a parse tree produced by VoyagerParser#declaracion.
     def exitDeclaracion(self, ctx:VoyagerParser.DeclaracionContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#idvector.
-    def enterIdvector(self, ctx:VoyagerParser.IdvectorContext):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#idvector.
-    def exitIdvector(self, ctx:VoyagerParser.IdvectorContext):
         pass
 
 
@@ -242,39 +234,21 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#argumentos.
-    def enterArgumentos(self, ctx:VoyagerParser.ArgumentosContext):
+    # Enter a parse tree produced by VoyagerParser#parametros.
+    def enterParametros(self, ctx:VoyagerParser.ParametrosContext):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#argumentos.
-    def exitArgumentos(self, ctx:VoyagerParser.ArgumentosContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#argumentos1.
-    def enterArgumentos1(self, ctx:VoyagerParser.Argumentos1Context):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#argumentos1.
-    def exitArgumentos1(self, ctx:VoyagerParser.Argumentos1Context):
+    # Exit a parse tree produced by VoyagerParser#parametros.
+    def exitParametros(self, ctx:VoyagerParser.ParametrosContext):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#expbool.
-    def enterExpbool(self, ctx:VoyagerParser.ExpboolContext):
+    # Enter a parse tree produced by VoyagerParser#parametros1.
+    def enterParametros1(self, ctx:VoyagerParser.Parametros1Context):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#expbool.
-    def exitExpbool(self, ctx:VoyagerParser.ExpboolContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#expbool1.
-    def enterExpbool1(self, ctx:VoyagerParser.Expbool1Context):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#expbool1.
-    def exitExpbool1(self, ctx:VoyagerParser.Expbool1Context):
+    # Exit a parse tree produced by VoyagerParser#parametros1.
+    def exitParametros1(self, ctx:VoyagerParser.Parametros1Context):
         pass
 
 
@@ -293,6 +267,24 @@ class VoyagerListener(ParseTreeListener):
 
     # Exit a parse tree produced by VoyagerParser#expresion1.
     def exitExpresion1(self, ctx:VoyagerParser.Expresion1Context):
+        pass
+
+
+    # Enter a parse tree produced by VoyagerParser#expbool.
+    def enterExpbool(self, ctx:VoyagerParser.ExpboolContext):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#expbool.
+    def exitExpbool(self, ctx:VoyagerParser.ExpboolContext):
+        pass
+
+
+    # Enter a parse tree produced by VoyagerParser#expbool1.
+    def enterExpbool1(self, ctx:VoyagerParser.Expbool1Context):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#expbool1.
+    def exitExpbool1(self, ctx:VoyagerParser.Expbool1Context):
         pass
 
 
@@ -341,6 +333,15 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by VoyagerParser#factor2.
+    def enterFactor2(self, ctx:VoyagerParser.Factor2Context):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#factor2.
+    def exitFactor2(self, ctx:VoyagerParser.Factor2Context):
+        pass
+
+
     # Enter a parse tree produced by VoyagerParser#operando.
     def enterOperando(self, ctx:VoyagerParser.OperandoContext):
         pass
@@ -359,12 +360,21 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#vector_acceso.
-    def enterVector_acceso(self, ctx:VoyagerParser.Vector_accesoContext):
+    # Enter a parse tree produced by VoyagerParser#variable1.
+    def enterVariable1(self, ctx:VoyagerParser.Variable1Context):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#vector_acceso.
-    def exitVector_acceso(self, ctx:VoyagerParser.Vector_accesoContext):
+    # Exit a parse tree produced by VoyagerParser#variable1.
+    def exitVariable1(self, ctx:VoyagerParser.Variable1Context):
+        pass
+
+
+    # Enter a parse tree produced by VoyagerParser#variable2.
+    def enterVariable2(self, ctx:VoyagerParser.Variable2Context):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#variable2.
+    def exitVariable2(self, ctx:VoyagerParser.Variable2Context):
         pass
 
 
@@ -386,39 +396,39 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#verifica_tipo.
-    def enterVerifica_tipo(self, ctx:VoyagerParser.Verifica_tipoContext):
+    # Enter a parse tree produced by VoyagerParser#termina_condicion.
+    def enterTermina_condicion(self, ctx:VoyagerParser.Termina_condicionContext):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#verifica_tipo.
-    def exitVerifica_tipo(self, ctx:VoyagerParser.Verifica_tipoContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#sig_argumento.
-    def enterSig_argumento(self, ctx:VoyagerParser.Sig_argumentoContext):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#sig_argumento.
-    def exitSig_argumento(self, ctx:VoyagerParser.Sig_argumentoContext):
+    # Exit a parse tree produced by VoyagerParser#termina_condicion.
+    def exitTermina_condicion(self, ctx:VoyagerParser.Termina_condicionContext):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#mete_tipo.
-    def enterMete_tipo(self, ctx:VoyagerParser.Mete_tipoContext):
+    # Enter a parse tree produced by VoyagerParser#entra_sino.
+    def enterEntra_sino(self, ctx:VoyagerParser.Entra_sinoContext):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#mete_tipo.
-    def exitMete_tipo(self, ctx:VoyagerParser.Mete_tipoContext):
+    # Exit a parse tree produced by VoyagerParser#entra_sino.
+    def exitEntra_sino(self, ctx:VoyagerParser.Entra_sinoContext):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#mete_id.
-    def enterMete_id(self, ctx:VoyagerParser.Mete_idContext):
+    # Enter a parse tree produced by VoyagerParser#entra_ciclo.
+    def enterEntra_ciclo(self, ctx:VoyagerParser.Entra_cicloContext):
         pass
 
-    # Exit a parse tree produced by VoyagerParser#mete_id.
-    def exitMete_id(self, ctx:VoyagerParser.Mete_idContext):
+    # Exit a parse tree produced by VoyagerParser#entra_ciclo.
+    def exitEntra_ciclo(self, ctx:VoyagerParser.Entra_cicloContext):
+        pass
+
+
+    # Enter a parse tree produced by VoyagerParser#termina_ciclo.
+    def enterTermina_ciclo(self, ctx:VoyagerParser.Termina_cicloContext):
+        pass
+
+    # Exit a parse tree produced by VoyagerParser#termina_ciclo.
+    def exitTermina_ciclo(self, ctx:VoyagerParser.Termina_cicloContext):
         pass
 
 
