@@ -27,11 +27,13 @@ bloquefunc             : ABRE_BRACKET bloque2 bloque1 bloquefunc1 CIERRA_BRACKET
 bloque                 : ABRE_BRACKET bloque1 CIERRA_BRACKET;
 
 
-vector                : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
+vector                 : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
+vector_asigna          : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
 estatuto               : asignacion | condicion | imprimir | (llamada SEMI_COLON) | ciclo;
 
-asignacion             : idvector IGUAL expresion SEMI_COLON;
+asignacion             : idvector_asigna IGUAL expresion SEMI_COLON;
+idvector_asigna        : ID | vector_asigna;
 
 condicion              : SI ABRE_PAREN expresion CIERRA_PAREN lee_condicion bloque condicion1;
 condicion1             : SINO bloque | /*epsilon*/;
@@ -64,8 +66,10 @@ termino2               : MULT factor | DIV factor| /*epsilon*/;
 
 factor                 : ABRE_PAREN expresion CIERRA_PAREN | operando;
 
-operando               : cte_var | llamada | ID | vector;
+operando               : cte_var | llamada | ID | vector_acceso;
 cte_var                : CTE_B | CTE_E | CTE_F | CTE_C;
+
+vector_acceso          : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
 
 tipo                   : ENTERO | FLOTANTE | BOOL | CHAR;
@@ -94,6 +98,25 @@ mete_id: /*punto neuralgico 2 */;
 // ignorados puntos 4 y 5 workspace necesario
 // enterbloquefunc punto neuralgico 6
 // exitfunc punto neuralgico 7
+
+/* Declaración*/
+// guardar id y tipo en tabla de vars
+
+/*vectores declaración*/
+//enter_vector punto neuralgico 2
+//enter_vector punto neuralgico 3
+//enter_vector punto neuralgico 4-5
+//exit_vector punto neuralgico 8
+/*vectores asignación*/
+
+/*vectores acceso*/
+//enter_vector punto neuralgico 1
+//enter_vector punto neuralgico 2
+//enter_vector punto neuralgico 3
+//exit_vector punto neuralgico 5
+
+
+//falta agregar for y puntos neuralgicos de vectores
 
 /*
  * Lexer Rules
