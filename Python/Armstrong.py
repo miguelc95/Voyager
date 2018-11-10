@@ -21,7 +21,8 @@ class Armstrong(VoyagerListener):
         if self.tablaFunc.exists(ctx.ID().getText()):
             print ("Error ya existe una función con ese nombre")
         else:
-            funcTemp = func(ctx.typefunc().getText(), ctx.ID().getText())
+            funcObj = func(ctx.typefunc().getText(), ctx.ID().getText())
+            funcTemp = funcObj
             self.tablaFunc.addFunc(funcTemp)
 
     def exitFunc(self, ctx):

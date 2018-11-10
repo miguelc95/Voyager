@@ -4,6 +4,7 @@ class func:
         self.tipo = tipo
         self.nombre = nombre
         self.arrVariable = []
+        self.parameterTable = []
 
     def addVariable(self,var):
         self.arrVariable.append(var)
