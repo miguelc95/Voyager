@@ -80,15 +80,6 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#parametros1.
-    def enterParametros1(self, ctx:VoyagerParser.Parametros1Context):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#parametros1.
-    def exitParametros1(self, ctx:VoyagerParser.Parametros1Context):
-        pass
-
-
     # Enter a parse tree produced by VoyagerParser#bloquefunc1.
     def enterBloquefunc1(self, ctx:VoyagerParser.Bloquefunc1Context):
         pass
@@ -251,15 +242,6 @@ class VoyagerListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by VoyagerParser#argumentos1.
-    def enterArgumentos1(self, ctx:VoyagerParser.Argumentos1Context):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#argumentos1.
-    def exitArgumentos1(self, ctx:VoyagerParser.Argumentos1Context):
-        pass
-
-
     # Enter a parse tree produced by VoyagerParser#expbool.
     def enterExpbool(self, ctx:VoyagerParser.ExpboolContext):
         pass
@@ -347,15 +329,6 @@ class VoyagerListener(ParseTreeListener):
 
     # Exit a parse tree produced by VoyagerParser#operando.
     def exitOperando(self, ctx:VoyagerParser.OperandoContext):
-        pass
-
-
-    # Enter a parse tree produced by VoyagerParser#cte_var.
-    def enterCte_var(self, ctx:VoyagerParser.Cte_varContext):
-        pass
-
-    # Exit a parse tree produced by VoyagerParser#cte_var.
-    def exitCte_var(self, ctx:VoyagerParser.Cte_varContext):
         pass
 
 

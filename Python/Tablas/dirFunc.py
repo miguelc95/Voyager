@@ -1,18 +1,17 @@
 import Tablas.Structs.func
 class dirFunc:
-    dir = []
+    dir = {}
 
     def __init__(self):  # this method creates the class object.
         pass
 
     def exists(self, val):
-        for item in self.dir:
-            if item.nombre == val:
-                return True
+        if val in self.dir:
+            return True
         return False
 
-    def addFunc(self, val):
-        self.dir.append(val)
+    def addFunc(self, nom, val):
+        self.dir[nom] = val
             
             
     

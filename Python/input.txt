@@ -1,5 +1,5 @@
 programa {
-   vacio hi () {
+   vacio hi (entero uno, flotante dos) {
 	imprimir("hivrvrevr_ecerfer?r/fvv[]er"); 
     }
 

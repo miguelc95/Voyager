@@ -8,149 +8,144 @@ import sys
 def serializedATN():
     with StringIO() as buf:
         buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3.")
-        buf.write("\u015d\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
+        buf.write("\u014e\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
         buf.write("\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t\13\4\f\t\f\4\r\t\r\4\16")
         buf.write("\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22\4\23\t\23")
         buf.write("\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30\4\31")
         buf.write("\t\31\4\32\t\32\4\33\t\33\4\34\t\34\4\35\t\35\4\36\t\36")
         buf.write("\4\37\t\37\4 \t \4!\t!\4\"\t\"\4#\t#\4$\t$\4%\t%\4&\t")
-        buf.write("&\4\'\t\'\4(\t(\4)\t)\4*\t*\4+\t+\4,\t,\4-\t-\4.\t.\4")
-        buf.write("/\t/\3\2\6\2`\n\2\r\2\16\2a\3\2\3\2\3\3\3\3\3\3\3\4\3")
-        buf.write("\4\3\4\3\4\3\4\3\4\3\5\3\5\3\5\3\5\5\5s\n\5\3\6\3\6\3")
-        buf.write("\6\3\6\5\6y\n\6\3\7\3\7\3\7\3\7\5\7\177\n\7\3\b\3\b\3")
-        buf.write("\b\3\b\3\b\3\b\3\b\3\t\3\t\3\t\3\t\3\t\3\t\3\t\5\t\u008f")
-        buf.write("\n\t\3\n\3\n\3\n\3\n\3\n\3\n\3\n\3\n\5\n\u0099\n\n\3\13")
-        buf.write("\3\13\3\13\3\13\3\13\5\13\u00a0\n\13\3\f\3\f\5\f\u00a4")
-        buf.write("\n\f\3\r\3\r\3\r\3\r\3\r\3\r\3\16\3\16\3\16\3\16\3\17")
-        buf.write("\3\17\3\17\3\17\3\17\3\17\5\17\u00b6\n\17\3\20\3\20\3")
-        buf.write("\20\3\20\3\20\3\20\5\20\u00be\n\20\3\21\3\21\3\21\3\21")
-        buf.write("\3\21\3\21\3\21\5\21\u00c7\n\21\3\22\3\22\3\22\3\22\3")
-        buf.write("\22\3\23\3\23\5\23\u00d0\n\23\3\24\3\24\3\24\3\24\3\24")
-        buf.write("\3\24\3\24\3\24\3\25\3\25\3\25\5\25\u00dd\n\25\3\26\3")
-        buf.write("\26\3\26\3\26\3\26\3\27\3\27\5\27\u00e6\n\27\3\30\3\30")
-        buf.write("\3\30\3\30\3\30\3\30\3\31\3\31\5\31\u00f0\n\31\3\32\3")
-        buf.write("\32\3\32\3\32\3\32\3\32\3\32\3\33\3\33\3\33\3\33\3\33")
-        buf.write("\3\34\3\34\3\34\3\34\3\34\5\34\u0103\n\34\3\35\3\35\3")
-        buf.write("\35\3\35\3\35\3\35\3\35\5\35\u010c\n\35\3\36\3\36\3\36")
-        buf.write("\3\37\3\37\3\37\3\37\3\37\3\37\3\37\3\37\3\37\5\37\u011a")
-        buf.write("\n\37\3 \3 \3 \3!\3!\3!\3!\3!\5!\u0124\n!\3\"\3\"\3\"")
-        buf.write("\3#\3#\3#\3#\3#\5#\u012e\n#\3$\3$\3$\3%\3%\3%\3%\3%\5")
-        buf.write("%\u0138\n%\3&\3&\3&\3&\3&\5&\u013f\n&\3\'\3\'\3\'\3\'")
-        buf.write("\5\'\u0145\n\'\3(\3(\3)\3)\3)\3)\3)\3)\5)\u014f\n)\3*")
-        buf.write("\3*\3+\3+\3,\3,\3-\3-\3.\3.\3/\3/\3/\2\2\60\2\4\6\b\n")
-        buf.write("\f\16\20\22\24\26\30\32\34\36 \"$&(*,.\60\62\64\668:<")
-        buf.write(">@BDFHJLNPRTVXZ\\\2\4\3\2(+\4\2\n\f\16\16\2\u0151\2_\3")
-        buf.write("\2\2\2\4e\3\2\2\2\6h\3\2\2\2\br\3\2\2\2\nx\3\2\2\2\f~")
-        buf.write("\3\2\2\2\16\u0080\3\2\2\2\20\u008e\3\2\2\2\22\u0098\3")
-        buf.write("\2\2\2\24\u009f\3\2\2\2\26\u00a3\3\2\2\2\30\u00a5\3\2")
-        buf.write("\2\2\32\u00ab\3\2\2\2\34\u00b5\3\2\2\2\36\u00bd\3\2\2")
-        buf.write("\2 \u00c6\3\2\2\2\"\u00c8\3\2\2\2$\u00cf\3\2\2\2&\u00d1")
-        buf.write("\3\2\2\2(\u00dc\3\2\2\2*\u00de\3\2\2\2,\u00e5\3\2\2\2")
-        buf.write(".\u00e7\3\2\2\2\60\u00ef\3\2\2\2\62\u00f1\3\2\2\2\64\u00f8")
-        buf.write("\3\2\2\2\66\u0102\3\2\2\28\u010b\3\2\2\2:\u010d\3\2\2")
-        buf.write("\2<\u0119\3\2\2\2>\u011b\3\2\2\2@\u0123\3\2\2\2B\u0125")
-        buf.write("\3\2\2\2D\u012d\3\2\2\2F\u012f\3\2\2\2H\u0137\3\2\2\2")
-        buf.write("J\u013e\3\2\2\2L\u0144\3\2\2\2N\u0146\3\2\2\2P\u014e\3")
-        buf.write("\2\2\2R\u0150\3\2\2\2T\u0152\3\2\2\2V\u0154\3\2\2\2X\u0156")
-        buf.write("\3\2\2\2Z\u0158\3\2\2\2\\\u015a\3\2\2\2^`\5\4\3\2_^\3")
-        buf.write("\2\2\2`a\3\2\2\2a_\3\2\2\2ab\3\2\2\2bc\3\2\2\2cd\7\2\2")
-        buf.write("\3d\3\3\2\2\2ef\7,\2\2fg\5\6\4\2g\5\3\2\2\2hi\7\24\2\2")
-        buf.write("ij\5\f\7\2jk\5\n\6\2kl\5\b\5\2lm\7\25\2\2m\7\3\2\2\2n")
-        buf.write("o\5 \21\2op\5\b\5\2ps\3\2\2\2qs\3\2\2\2rn\3\2\2\2rq\3")
-        buf.write("\2\2\2s\t\3\2\2\2tu\5*\26\2uv\5\n\6\2vy\3\2\2\2wy\3\2")
-        buf.write("\2\2xt\3\2\2\2xw\3\2\2\2y\13\3\2\2\2z{\5\16\b\2{|\5\f")
-        buf.write("\7\2|\177\3\2\2\2}\177\3\2\2\2~z\3\2\2\2~}\3\2\2\2\177")
-        buf.write("\r\3\2\2\2\u0080\u0081\5\26\f\2\u0081\u0082\7-\2\2\u0082")
-        buf.write("\u0083\7\22\2\2\u0083\u0084\5\20\t\2\u0084\u0085\7\23")
-        buf.write("\2\2\u0085\u0086\5\30\r\2\u0086\17\3\2\2\2\u0087\u0088")
-        buf.write("\5R*\2\u0088\u0089\5Z.\2\u0089\u008a\7-\2\2\u008a\u008b")
-        buf.write("\5\\/\2\u008b\u008c\5\22\n\2\u008c\u008f\3\2\2\2\u008d")
-        buf.write("\u008f\3\2\2\2\u008e\u0087\3\2\2\2\u008e\u008d\3\2\2\2")
-        buf.write("\u008f\21\3\2\2\2\u0090\u0091\7\33\2\2\u0091\u0092\5R")
-        buf.write("*\2\u0092\u0093\5Z.\2\u0093\u0094\7-\2\2\u0094\u0095\5")
-        buf.write("\\/\2\u0095\u0096\5\22\n\2\u0096\u0099\3\2\2\2\u0097\u0099")
-        buf.write("\3\2\2\2\u0098\u0090\3\2\2\2\u0098\u0097\3\2\2\2\u0099")
-        buf.write("\23\3\2\2\2\u009a\u009b\7\20\2\2\u009b\u009c\5> \2\u009c")
-        buf.write("\u009d\7\30\2\2\u009d\u00a0\3\2\2\2\u009e\u00a0\3\2\2")
-        buf.write("\2\u009f\u009a\3\2\2\2\u009f\u009e\3\2\2\2\u00a0\25\3")
-        buf.write("\2\2\2\u00a1\u00a4\5R*\2\u00a2\u00a4\7\17\2\2\u00a3\u00a1")
-        buf.write("\3\2\2\2\u00a3\u00a2\3\2\2\2\u00a4\27\3\2\2\2\u00a5\u00a6")
-        buf.write("\7\24\2\2\u00a6\u00a7\5\n\6\2\u00a7\u00a8\5\b\5\2\u00a8")
-        buf.write("\u00a9\5\24\13\2\u00a9\u00aa\7\25\2\2\u00aa\31\3\2\2\2")
-        buf.write("\u00ab\u00ac\7\24\2\2\u00ac\u00ad\5\b\5\2\u00ad\u00ae")
-        buf.write("\7\25\2\2\u00ae\33\3\2\2\2\u00af\u00b0\7-\2\2\u00b0\u00b1")
-        buf.write("\7\26\2\2\u00b1\u00b2\5B\"\2\u00b2\u00b3\7\27\2\2\u00b3")
-        buf.write("\u00b6\3\2\2\2\u00b4\u00b6\3\2\2\2\u00b5\u00af\3\2\2\2")
-        buf.write("\u00b5\u00b4\3\2\2\2\u00b6\35\3\2\2\2\u00b7\u00b8\7-\2")
-        buf.write("\2\u00b8\u00b9\7\26\2\2\u00b9\u00ba\5B\"\2\u00ba\u00bb")
-        buf.write("\7\27\2\2\u00bb\u00be\3\2\2\2\u00bc\u00be\3\2\2\2\u00bd")
-        buf.write("\u00b7\3\2\2\2\u00bd\u00bc\3\2\2\2\u00be\37\3\2\2\2\u00bf")
-        buf.write("\u00c7\5\"\22\2\u00c0\u00c7\5&\24\2\u00c1\u00c7\5.\30")
-        buf.write("\2\u00c2\u00c3\5\64\33\2\u00c3\u00c4\7\30\2\2\u00c4\u00c7")
-        buf.write("\3\2\2\2\u00c5\u00c7\5\62\32\2\u00c6\u00bf\3\2\2\2\u00c6")
-        buf.write("\u00c0\3\2\2\2\u00c6\u00c1\3\2\2\2\u00c6\u00c2\3\2\2\2")
-        buf.write("\u00c6\u00c5\3\2\2\2\u00c7!\3\2\2\2\u00c8\u00c9\5$\23")
-        buf.write("\2\u00c9\u00ca\7 \2\2\u00ca\u00cb\5> \2\u00cb\u00cc\7")
-        buf.write("\30\2\2\u00cc#\3\2\2\2\u00cd\u00d0\7-\2\2\u00ce\u00d0")
-        buf.write("\5\36\20\2\u00cf\u00cd\3\2\2\2\u00cf\u00ce\3\2\2\2\u00d0")
-        buf.write("%\3\2\2\2\u00d1\u00d2\7\b\2\2\u00d2\u00d3\7\22\2\2\u00d3")
-        buf.write("\u00d4\5> \2\u00d4\u00d5\7\23\2\2\u00d5\u00d6\5T+\2\u00d6")
-        buf.write("\u00d7\5\32\16\2\u00d7\u00d8\5(\25\2\u00d8\'\3\2\2\2\u00d9")
-        buf.write("\u00da\7\t\2\2\u00da\u00dd\5\32\16\2\u00db\u00dd\3\2\2")
-        buf.write("\2\u00dc\u00d9\3\2\2\2\u00dc\u00db\3\2\2\2\u00dd)\3\2")
-        buf.write("\2\2\u00de\u00df\7\6\2\2\u00df\u00e0\5R*\2\u00e0\u00e1")
-        buf.write("\5,\27\2\u00e1\u00e2\7\30\2\2\u00e2+\3\2\2\2\u00e3\u00e6")
-        buf.write("\7-\2\2\u00e4\u00e6\5\34\17\2\u00e5\u00e3\3\2\2\2\u00e5")
-        buf.write("\u00e4\3\2\2\2\u00e6-\3\2\2\2\u00e7\u00e8\7\7\2\2\u00e8")
-        buf.write("\u00e9\7\22\2\2\u00e9\u00ea\5\60\31\2\u00ea\u00eb\7\23")
-        buf.write("\2\2\u00eb\u00ec\7\30\2\2\u00ec/\3\2\2\2\u00ed\u00f0\5")
-        buf.write("> \2\u00ee\u00f0\7\'\2\2\u00ef\u00ed\3\2\2\2\u00ef\u00ee")
-        buf.write("\3\2\2\2\u00f0\61\3\2\2\2\u00f1\u00f2\7\21\2\2\u00f2\u00f3")
-        buf.write("\7\22\2\2\u00f3\u00f4\5> \2\u00f4\u00f5\7\23\2\2\u00f5")
-        buf.write("\u00f6\5T+\2\u00f6\u00f7\5\32\16\2\u00f7\63\3\2\2\2\u00f8")
-        buf.write("\u00f9\7-\2\2\u00f9\u00fa\7\22\2\2\u00fa\u00fb\5\66\34")
-        buf.write("\2\u00fb\u00fc\7\23\2\2\u00fc\65\3\2\2\2\u00fd\u00fe\5")
-        buf.write("> \2\u00fe\u00ff\5V,\2\u00ff\u0100\58\35\2\u0100\u0103")
-        buf.write("\3\2\2\2\u0101\u0103\3\2\2\2\u0102\u00fd\3\2\2\2\u0102")
-        buf.write("\u0101\3\2\2\2\u0103\67\3\2\2\2\u0104\u0105\7\33\2\2\u0105")
-        buf.write("\u0106\5X-\2\u0106\u0107\5> \2\u0107\u0108\5V,\2\u0108")
-        buf.write("\u0109\58\35\2\u0109\u010c\3\2\2\2\u010a\u010c\3\2\2\2")
-        buf.write("\u010b\u0104\3\2\2\2\u010b\u010a\3\2\2\2\u010c9\3\2\2")
-        buf.write("\2\u010d\u010e\5B\"\2\u010e\u010f\5<\37\2\u010f;\3\2\2")
-        buf.write("\2\u0110\u0111\7!\2\2\u0111\u011a\5B\"\2\u0112\u0113\7")
-        buf.write("\"\2\2\u0113\u011a\5B\"\2\u0114\u0115\7%\2\2\u0115\u011a")
-        buf.write("\5B\"\2\u0116\u0117\7&\2\2\u0117\u011a\5B\"\2\u0118\u011a")
-        buf.write("\3\2\2\2\u0119\u0110\3\2\2\2\u0119\u0112\3\2\2\2\u0119")
-        buf.write("\u0114\3\2\2\2\u0119\u0116\3\2\2\2\u0119\u0118\3\2\2\2")
-        buf.write("\u011a=\3\2\2\2\u011b\u011c\5:\36\2\u011c\u011d\5@!\2")
-        buf.write("\u011d?\3\2\2\2\u011e\u011f\7#\2\2\u011f\u0124\5:\36\2")
-        buf.write("\u0120\u0121\7$\2\2\u0121\u0124\5:\36\2\u0122\u0124\3")
-        buf.write("\2\2\2\u0123\u011e\3\2\2\2\u0123\u0120\3\2\2\2\u0123\u0122")
-        buf.write("\3\2\2\2\u0124A\3\2\2\2\u0125\u0126\5F$\2\u0126\u0127")
-        buf.write("\5D#\2\u0127C\3\2\2\2\u0128\u0129\7\34\2\2\u0129\u012e")
-        buf.write("\5F$\2\u012a\u012b\7\35\2\2\u012b\u012e\5F$\2\u012c\u012e")
-        buf.write("\3\2\2\2\u012d\u0128\3\2\2\2\u012d\u012a\3\2\2\2\u012d")
-        buf.write("\u012c\3\2\2\2\u012eE\3\2\2\2\u012f\u0130\5J&\2\u0130")
-        buf.write("\u0131\5H%\2\u0131G\3\2\2\2\u0132\u0133\7\37\2\2\u0133")
-        buf.write("\u0138\5J&\2\u0134\u0135\7\36\2\2\u0135\u0138\5J&\2\u0136")
-        buf.write("\u0138\3\2\2\2\u0137\u0132\3\2\2\2\u0137\u0134\3\2\2\2")
-        buf.write("\u0137\u0136\3\2\2\2\u0138I\3\2\2\2\u0139\u013a\7\22\2")
-        buf.write("\2\u013a\u013b\5> \2\u013b\u013c\7\23\2\2\u013c\u013f")
-        buf.write("\3\2\2\2\u013d\u013f\5L\'\2\u013e\u0139\3\2\2\2\u013e")
-        buf.write("\u013d\3\2\2\2\u013fK\3\2\2\2\u0140\u0145\5N(\2\u0141")
-        buf.write("\u0145\5\64\33\2\u0142\u0145\7-\2\2\u0143\u0145\5P)\2")
-        buf.write("\u0144\u0140\3\2\2\2\u0144\u0141\3\2\2\2\u0144\u0142\3")
-        buf.write("\2\2\2\u0144\u0143\3\2\2\2\u0145M\3\2\2\2\u0146\u0147")
-        buf.write("\t\2\2\2\u0147O\3\2\2\2\u0148\u0149\7-\2\2\u0149\u014a")
-        buf.write("\7\26\2\2\u014a\u014b\5B\"\2\u014b\u014c\7\27\2\2\u014c")
-        buf.write("\u014f\3\2\2\2\u014d\u014f\3\2\2\2\u014e\u0148\3\2\2\2")
-        buf.write("\u014e\u014d\3\2\2\2\u014fQ\3\2\2\2\u0150\u0151\t\3\2")
-        buf.write("\2\u0151S\3\2\2\2\u0152\u0153\3\2\2\2\u0153U\3\2\2\2\u0154")
-        buf.write("\u0155\3\2\2\2\u0155W\3\2\2\2\u0156\u0157\3\2\2\2\u0157")
-        buf.write("Y\3\2\2\2\u0158\u0159\3\2\2\2\u0159[\3\2\2\2\u015a\u015b")
-        buf.write("\3\2\2\2\u015b]\3\2\2\2\32arx~\u008e\u0098\u009f\u00a3")
-        buf.write("\u00b5\u00bd\u00c6\u00cf\u00dc\u00e5\u00ef\u0102\u010b")
-        buf.write("\u0119\u0123\u012d\u0137\u013e\u0144\u014e")
+        buf.write("&\4\'\t\'\4(\t(\4)\t)\4*\t*\4+\t+\4,\t,\3\2\6\2Z\n\2\r")
+        buf.write("\2\16\2[\3\2\3\2\3\3\3\3\3\3\3\4\3\4\3\4\3\4\3\4\3\4\3")
+        buf.write("\5\3\5\3\5\3\5\5\5m\n\5\3\6\3\6\3\6\3\6\5\6s\n\6\3\7\3")
+        buf.write("\7\3\7\3\7\5\7y\n\7\3\b\3\b\3\b\3\b\3\b\3\b\3\b\3\t\3")
+        buf.write("\t\3\t\3\t\3\t\3\t\7\t\u0088\n\t\f\t\16\t\u008b\13\t\3")
+        buf.write("\t\5\t\u008e\n\t\3\n\3\n\3\n\3\n\3\n\5\n\u0095\n\n\3\13")
+        buf.write("\3\13\5\13\u0099\n\13\3\f\3\f\3\f\3\f\3\f\3\f\3\r\3\r")
+        buf.write("\3\r\3\r\3\16\3\16\3\16\3\16\3\16\3\16\5\16\u00ab\n\16")
+        buf.write("\3\17\3\17\3\17\3\17\3\17\3\17\5\17\u00b3\n\17\3\20\3")
+        buf.write("\20\3\20\3\20\3\20\3\20\3\20\5\20\u00bc\n\20\3\21\3\21")
+        buf.write("\3\21\3\21\3\21\3\22\3\22\5\22\u00c5\n\22\3\23\3\23\3")
+        buf.write("\23\3\23\3\23\3\23\3\23\3\23\3\24\3\24\3\24\5\24\u00d2")
+        buf.write("\n\24\3\25\3\25\3\25\3\25\3\25\3\26\3\26\5\26\u00db\n")
+        buf.write("\26\3\27\3\27\3\27\3\27\3\27\3\27\3\30\3\30\5\30\u00e5")
+        buf.write("\n\30\3\31\3\31\3\31\3\31\3\31\3\31\3\31\3\32\3\32\3\32")
+        buf.write("\3\32\3\32\3\33\3\33\3\33\7\33\u00f6\n\33\f\33\16\33\u00f9")
+        buf.write("\13\33\3\33\5\33\u00fc\n\33\3\34\3\34\3\34\3\35\3\35\3")
+        buf.write("\35\3\35\3\35\3\35\3\35\3\35\3\35\5\35\u010a\n\35\3\36")
+        buf.write("\3\36\3\36\3\37\3\37\3\37\3\37\3\37\5\37\u0114\n\37\3")
+        buf.write(" \3 \3 \3!\3!\3!\3!\3!\5!\u011e\n!\3\"\3\"\3\"\3#\3#\3")
+        buf.write("#\3#\3#\5#\u0128\n#\3$\3$\3$\3$\3$\5$\u012f\n$\3%\3%\3")
+        buf.write("%\3%\3%\3%\3%\5%\u0138\n%\3&\3&\3&\3&\3&\3&\5&\u0140\n")
+        buf.write("&\3\'\3\'\3(\3(\3)\3)\3*\3*\3+\3+\3,\3,\3,\2\2-\2\4\6")
+        buf.write("\b\n\f\16\20\22\24\26\30\32\34\36 \"$&(*,.\60\62\64\66")
+        buf.write("8:<>@BDFHJLNPRTV\2\3\4\2\n\f\16\16\2\u0148\2Y\3\2\2\2")
+        buf.write("\4_\3\2\2\2\6b\3\2\2\2\bl\3\2\2\2\nr\3\2\2\2\fx\3\2\2")
+        buf.write("\2\16z\3\2\2\2\20\u008d\3\2\2\2\22\u0094\3\2\2\2\24\u0098")
+        buf.write("\3\2\2\2\26\u009a\3\2\2\2\30\u00a0\3\2\2\2\32\u00aa\3")
+        buf.write("\2\2\2\34\u00b2\3\2\2\2\36\u00bb\3\2\2\2 \u00bd\3\2\2")
+        buf.write("\2\"\u00c4\3\2\2\2$\u00c6\3\2\2\2&\u00d1\3\2\2\2(\u00d3")
+        buf.write("\3\2\2\2*\u00da\3\2\2\2,\u00dc\3\2\2\2.\u00e4\3\2\2\2")
+        buf.write("\60\u00e6\3\2\2\2\62\u00ed\3\2\2\2\64\u00fb\3\2\2\2\66")
+        buf.write("\u00fd\3\2\2\28\u0109\3\2\2\2:\u010b\3\2\2\2<\u0113\3")
+        buf.write("\2\2\2>\u0115\3\2\2\2@\u011d\3\2\2\2B\u011f\3\2\2\2D\u0127")
+        buf.write("\3\2\2\2F\u012e\3\2\2\2H\u0137\3\2\2\2J\u013f\3\2\2\2")
+        buf.write("L\u0141\3\2\2\2N\u0143\3\2\2\2P\u0145\3\2\2\2R\u0147\3")
+        buf.write("\2\2\2T\u0149\3\2\2\2V\u014b\3\2\2\2XZ\5\4\3\2YX\3\2\2")
+        buf.write("\2Z[\3\2\2\2[Y\3\2\2\2[\\\3\2\2\2\\]\3\2\2\2]^\7\2\2\3")
+        buf.write("^\3\3\2\2\2_`\7,\2\2`a\5\6\4\2a\5\3\2\2\2bc\7\24\2\2c")
+        buf.write("d\5\f\7\2de\5\n\6\2ef\5\b\5\2fg\7\25\2\2g\7\3\2\2\2hi")
+        buf.write("\5\36\20\2ij\5\b\5\2jm\3\2\2\2km\3\2\2\2lh\3\2\2\2lk\3")
+        buf.write("\2\2\2m\t\3\2\2\2no\5(\25\2op\5\n\6\2ps\3\2\2\2qs\3\2")
+        buf.write("\2\2rn\3\2\2\2rq\3\2\2\2s\13\3\2\2\2tu\5\16\b\2uv\5\f")
+        buf.write("\7\2vy\3\2\2\2wy\3\2\2\2xt\3\2\2\2xw\3\2\2\2y\r\3\2\2")
+        buf.write("\2z{\5\24\13\2{|\7-\2\2|}\7\22\2\2}~\5\20\t\2~\177\7\23")
+        buf.write("\2\2\177\u0080\5\26\f\2\u0080\17\3\2\2\2\u0081\u0082\5")
+        buf.write("L\'\2\u0082\u0089\7-\2\2\u0083\u0084\7\33\2\2\u0084\u0085")
+        buf.write("\5L\'\2\u0085\u0086\7-\2\2\u0086\u0088\3\2\2\2\u0087\u0083")
+        buf.write("\3\2\2\2\u0088\u008b\3\2\2\2\u0089\u0087\3\2\2\2\u0089")
+        buf.write("\u008a\3\2\2\2\u008a\u008e\3\2\2\2\u008b\u0089\3\2\2\2")
+        buf.write("\u008c\u008e\3\2\2\2\u008d\u0081\3\2\2\2\u008d\u008c\3")
+        buf.write("\2\2\2\u008e\21\3\2\2\2\u008f\u0090\7\20\2\2\u0090\u0091")
+        buf.write("\5:\36\2\u0091\u0092\7\30\2\2\u0092\u0095\3\2\2\2\u0093")
+        buf.write("\u0095\3\2\2\2\u0094\u008f\3\2\2\2\u0094\u0093\3\2\2\2")
+        buf.write("\u0095\23\3\2\2\2\u0096\u0099\5L\'\2\u0097\u0099\7\17")
+        buf.write("\2\2\u0098\u0096\3\2\2\2\u0098\u0097\3\2\2\2\u0099\25")
+        buf.write("\3\2\2\2\u009a\u009b\7\24\2\2\u009b\u009c\5\n\6\2\u009c")
+        buf.write("\u009d\5\b\5\2\u009d\u009e\5\22\n\2\u009e\u009f\7\25\2")
+        buf.write("\2\u009f\27\3\2\2\2\u00a0\u00a1\7\24\2\2\u00a1\u00a2\5")
+        buf.write("\b\5\2\u00a2\u00a3\7\25\2\2\u00a3\31\3\2\2\2\u00a4\u00a5")
+        buf.write("\7-\2\2\u00a5\u00a6\7\26\2\2\u00a6\u00a7\5> \2\u00a7\u00a8")
+        buf.write("\7\27\2\2\u00a8\u00ab\3\2\2\2\u00a9\u00ab\3\2\2\2\u00aa")
+        buf.write("\u00a4\3\2\2\2\u00aa\u00a9\3\2\2\2\u00ab\33\3\2\2\2\u00ac")
+        buf.write("\u00ad\7-\2\2\u00ad\u00ae\7\26\2\2\u00ae\u00af\5> \2\u00af")
+        buf.write("\u00b0\7\27\2\2\u00b0\u00b3\3\2\2\2\u00b1\u00b3\3\2\2")
+        buf.write("\2\u00b2\u00ac\3\2\2\2\u00b2\u00b1\3\2\2\2\u00b3\35\3")
+        buf.write("\2\2\2\u00b4\u00bc\5 \21\2\u00b5\u00bc\5$\23\2\u00b6\u00bc")
+        buf.write("\5,\27\2\u00b7\u00b8\5\62\32\2\u00b8\u00b9\7\30\2\2\u00b9")
+        buf.write("\u00bc\3\2\2\2\u00ba\u00bc\5\60\31\2\u00bb\u00b4\3\2\2")
+        buf.write("\2\u00bb\u00b5\3\2\2\2\u00bb\u00b6\3\2\2\2\u00bb\u00b7")
+        buf.write("\3\2\2\2\u00bb\u00ba\3\2\2\2\u00bc\37\3\2\2\2\u00bd\u00be")
+        buf.write("\5\"\22\2\u00be\u00bf\7 \2\2\u00bf\u00c0\5:\36\2\u00c0")
+        buf.write("\u00c1\7\30\2\2\u00c1!\3\2\2\2\u00c2\u00c5\7-\2\2\u00c3")
+        buf.write("\u00c5\5\34\17\2\u00c4\u00c2\3\2\2\2\u00c4\u00c3\3\2\2")
+        buf.write("\2\u00c5#\3\2\2\2\u00c6\u00c7\7\b\2\2\u00c7\u00c8\7\22")
+        buf.write("\2\2\u00c8\u00c9\5:\36\2\u00c9\u00ca\7\23\2\2\u00ca\u00cb")
+        buf.write("\5N(\2\u00cb\u00cc\5\30\r\2\u00cc\u00cd\5&\24\2\u00cd")
+        buf.write("%\3\2\2\2\u00ce\u00cf\7\t\2\2\u00cf\u00d2\5\30\r\2\u00d0")
+        buf.write("\u00d2\3\2\2\2\u00d1\u00ce\3\2\2\2\u00d1\u00d0\3\2\2\2")
+        buf.write("\u00d2\'\3\2\2\2\u00d3\u00d4\7\6\2\2\u00d4\u00d5\5L\'")
+        buf.write("\2\u00d5\u00d6\5*\26\2\u00d6\u00d7\7\30\2\2\u00d7)\3\2")
+        buf.write("\2\2\u00d8\u00db\7-\2\2\u00d9\u00db\5\32\16\2\u00da\u00d8")
+        buf.write("\3\2\2\2\u00da\u00d9\3\2\2\2\u00db+\3\2\2\2\u00dc\u00dd")
+        buf.write("\7\7\2\2\u00dd\u00de\7\22\2\2\u00de\u00df\5.\30\2\u00df")
+        buf.write("\u00e0\7\23\2\2\u00e0\u00e1\7\30\2\2\u00e1-\3\2\2\2\u00e2")
+        buf.write("\u00e5\5:\36\2\u00e3\u00e5\7\'\2\2\u00e4\u00e2\3\2\2\2")
+        buf.write("\u00e4\u00e3\3\2\2\2\u00e5/\3\2\2\2\u00e6\u00e7\7\21\2")
+        buf.write("\2\u00e7\u00e8\7\22\2\2\u00e8\u00e9\5:\36\2\u00e9\u00ea")
+        buf.write("\7\23\2\2\u00ea\u00eb\5N(\2\u00eb\u00ec\5\30\r\2\u00ec")
+        buf.write("\61\3\2\2\2\u00ed\u00ee\7-\2\2\u00ee\u00ef\7\22\2\2\u00ef")
+        buf.write("\u00f0\5\64\33\2\u00f0\u00f1\7\23\2\2\u00f1\63\3\2\2\2")
+        buf.write("\u00f2\u00f7\5:\36\2\u00f3\u00f4\7\33\2\2\u00f4\u00f6")
+        buf.write("\5:\36\2\u00f5\u00f3\3\2\2\2\u00f6\u00f9\3\2\2\2\u00f7")
+        buf.write("\u00f5\3\2\2\2\u00f7\u00f8\3\2\2\2\u00f8\u00fc\3\2\2\2")
+        buf.write("\u00f9\u00f7\3\2\2\2\u00fa\u00fc\3\2\2\2\u00fb\u00f2\3")
+        buf.write("\2\2\2\u00fb\u00fa\3\2\2\2\u00fc\65\3\2\2\2\u00fd\u00fe")
+        buf.write("\5> \2\u00fe\u00ff\58\35\2\u00ff\67\3\2\2\2\u0100\u0101")
+        buf.write("\7!\2\2\u0101\u010a\5> \2\u0102\u0103\7\"\2\2\u0103\u010a")
+        buf.write("\5> \2\u0104\u0105\7%\2\2\u0105\u010a\5> \2\u0106\u0107")
+        buf.write("\7&\2\2\u0107\u010a\5> \2\u0108\u010a\3\2\2\2\u0109\u0100")
+        buf.write("\3\2\2\2\u0109\u0102\3\2\2\2\u0109\u0104\3\2\2\2\u0109")
+        buf.write("\u0106\3\2\2\2\u0109\u0108\3\2\2\2\u010a9\3\2\2\2\u010b")
+        buf.write("\u010c\5\66\34\2\u010c\u010d\5<\37\2\u010d;\3\2\2\2\u010e")
+        buf.write("\u010f\7#\2\2\u010f\u0114\5\66\34\2\u0110\u0111\7$\2\2")
+        buf.write("\u0111\u0114\5\66\34\2\u0112\u0114\3\2\2\2\u0113\u010e")
+        buf.write("\3\2\2\2\u0113\u0110\3\2\2\2\u0113\u0112\3\2\2\2\u0114")
+        buf.write("=\3\2\2\2\u0115\u0116\5B\"\2\u0116\u0117\5@!\2\u0117?")
+        buf.write("\3\2\2\2\u0118\u0119\7\34\2\2\u0119\u011e\5B\"\2\u011a")
+        buf.write("\u011b\7\35\2\2\u011b\u011e\5B\"\2\u011c\u011e\3\2\2\2")
+        buf.write("\u011d\u0118\3\2\2\2\u011d\u011a\3\2\2\2\u011d\u011c\3")
+        buf.write("\2\2\2\u011eA\3\2\2\2\u011f\u0120\5F$\2\u0120\u0121\5")
+        buf.write("D#\2\u0121C\3\2\2\2\u0122\u0123\7\37\2\2\u0123\u0128\5")
+        buf.write("F$\2\u0124\u0125\7\36\2\2\u0125\u0128\5F$\2\u0126\u0128")
+        buf.write("\3\2\2\2\u0127\u0122\3\2\2\2\u0127\u0124\3\2\2\2\u0127")
+        buf.write("\u0126\3\2\2\2\u0128E\3\2\2\2\u0129\u012a\7\22\2\2\u012a")
+        buf.write("\u012b\5:\36\2\u012b\u012c\7\23\2\2\u012c\u012f\3\2\2")
+        buf.write("\2\u012d\u012f\5H%\2\u012e\u0129\3\2\2\2\u012e\u012d\3")
+        buf.write("\2\2\2\u012fG\3\2\2\2\u0130\u0138\7+\2\2\u0131\u0138\7")
+        buf.write("(\2\2\u0132\u0138\7)\2\2\u0133\u0138\7*\2\2\u0134\u0138")
+        buf.write("\5\62\32\2\u0135\u0138\7-\2\2\u0136\u0138\5J&\2\u0137")
+        buf.write("\u0130\3\2\2\2\u0137\u0131\3\2\2\2\u0137\u0132\3\2\2\2")
+        buf.write("\u0137\u0133\3\2\2\2\u0137\u0134\3\2\2\2\u0137\u0135\3")
+        buf.write("\2\2\2\u0137\u0136\3\2\2\2\u0138I\3\2\2\2\u0139\u013a")
+        buf.write("\7-\2\2\u013a\u013b\7\26\2\2\u013b\u013c\5> \2\u013c\u013d")
+        buf.write("\7\27\2\2\u013d\u0140\3\2\2\2\u013e\u0140\3\2\2\2\u013f")
+        buf.write("\u0139\3\2\2\2\u013f\u013e\3\2\2\2\u0140K\3\2\2\2\u0141")
+        buf.write("\u0142\t\2\2\2\u0142M\3\2\2\2\u0143\u0144\3\2\2\2\u0144")
+        buf.write("O\3\2\2\2\u0145\u0146\3\2\2\2\u0146Q\3\2\2\2\u0147\u0148")
+        buf.write("\3\2\2\2\u0148S\3\2\2\2\u0149\u014a\3\2\2\2\u014aU\3\2")
+        buf.write("\2\2\u014b\u014c\3\2\2\2\u014cW\3\2\2\2\32[lrx\u0089\u008d")
+        buf.write("\u0094\u0098\u00aa\u00b2\u00bb\u00c4\u00d1\u00da\u00e4")
+        buf.write("\u00f7\u00fb\u0109\u0113\u011d\u0127\u012e\u0137\u013f")
         return buf.getvalue()
 
 
@@ -184,54 +179,50 @@ class VoyagerParser ( Parser ):
     RULE_bloque3 = 5
     RULE_func = 6
     RULE_parametros = 7
-    RULE_parametros1 = 8
-    RULE_bloquefunc1 = 9
-    RULE_typefunc = 10
-    RULE_bloquefunc = 11
-    RULE_bloque = 12
-    RULE_vector = 13
-    RULE_vector_asigna = 14
-    RULE_estatuto = 15
-    RULE_asignacion = 16
-    RULE_idvector_asigna = 17
-    RULE_condicion = 18
-    RULE_condicion1 = 19
-    RULE_declaracion = 20
-    RULE_idvector = 21
-    RULE_imprimir = 22
-    RULE_imprimir1 = 23
-    RULE_ciclo = 24
-    RULE_llamada = 25
-    RULE_argumentos = 26
-    RULE_argumentos1 = 27
-    RULE_expbool = 28
-    RULE_expbool1 = 29
-    RULE_expresion = 30
-    RULE_expresion1 = 31
-    RULE_exp = 32
-    RULE_exp1 = 33
-    RULE_termino = 34
-    RULE_termino2 = 35
-    RULE_factor = 36
-    RULE_operando = 37
-    RULE_cte_var = 38
-    RULE_vector_acceso = 39
-    RULE_tipo = 40
-    RULE_lee_condicion = 41
-    RULE_verifica_tipo = 42
-    RULE_sig_argumento = 43
-    RULE_mete_tipo = 44
-    RULE_mete_id = 45
+    RULE_bloquefunc1 = 8
+    RULE_typefunc = 9
+    RULE_bloquefunc = 10
+    RULE_bloque = 11
+    RULE_vector = 12
+    RULE_vector_asigna = 13
+    RULE_estatuto = 14
+    RULE_asignacion = 15
+    RULE_idvector_asigna = 16
+    RULE_condicion = 17
+    RULE_condicion1 = 18
+    RULE_declaracion = 19
+    RULE_idvector = 20
+    RULE_imprimir = 21
+    RULE_imprimir1 = 22
+    RULE_ciclo = 23
+    RULE_llamada = 24
+    RULE_argumentos = 25
+    RULE_expbool = 26
+    RULE_expbool1 = 27
+    RULE_expresion = 28
+    RULE_expresion1 = 29
+    RULE_exp = 30
+    RULE_exp1 = 31
+    RULE_termino = 32
+    RULE_termino2 = 33
+    RULE_factor = 34
+    RULE_operando = 35
+    RULE_vector_acceso = 36
+    RULE_tipo = 37
+    RULE_lee_condicion = 38
+    RULE_verifica_tipo = 39
+    RULE_sig_argumento = 40
+    RULE_mete_tipo = 41
+    RULE_mete_id = 42
 
     ruleNames =  [ "voyager", "program", "bloqueprogram", "bloque1", "bloque2", 
-                   "bloque3", "func", "parametros", "parametros1", "bloquefunc1", 
-                   "typefunc", "bloquefunc", "bloque", "vector", "vector_asigna", 
-                   "estatuto", "asignacion", "idvector_asigna", "condicion", 
-                   "condicion1", "declaracion", "idvector", "imprimir", 
-                   "imprimir1", "ciclo", "llamada", "argumentos", "argumentos1", 
-                   "expbool", "expbool1", "expresion", "expresion1", "exp", 
-                   "exp1", "termino", "termino2", "factor", "operando", 
-                   "cte_var", "vector_acceso", "tipo", "lee_condicion", 
+                   "bloque3", "func", "parametros", "bloquefunc1", "typefunc", 
+                   "bloquefunc", "bloque", "vector", "vector_asigna", "estatuto", 
+                   "asignacion", "idvector_asigna", "condicion", "condicion1", 
+                   "declaracion", "idvector", "imprimir", "imprimir1", "ciclo", 
+                   "llamada", "argumentos", "expbool", "expbool1", "expresion", 
+                   "expresion1", "exp", "exp1", "termino", "termino2", "factor", 
+                   "operando", "vector_acceso", "tipo", "lee_condicion", 
                    "verifica_tipo", "sig_argumento", "mete_tipo", "mete_id" ]
 
     EOF = Token.EOF
@@ -325,19 +316,19 @@ class VoyagerParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93 
+            self.state = 87 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 92
+                self.state = 86
                 self.program()
-                self.state = 95 
+                self.state = 89 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==VoyagerParser.PROGRAMA):
                     break
 
-            self.state = 97
+            self.state = 91
             self.match(VoyagerParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -380,9 +371,9 @@ class VoyagerParser ( Parser ):
         self.enterRule(localctx, 2, self.RULE_program)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 99
+            self.state = 93
             self.match(VoyagerParser.PROGRAMA)
-            self.state = 100
+            self.state = 94
             self.bloqueprogram()
         except RecognitionException as re:
             localctx.exception = re
@@ -436,15 +427,15 @@ class VoyagerParser ( Parser ):
         self.enterRule(localctx, 4, self.RULE_bloqueprogram)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 102
+            self.state = 96
             self.match(VoyagerParser.ABRE_BRACKET)
-            self.state = 103
+            self.state = 97
             self.bloque3()
-            self.state = 104
+            self.state = 98
             self.bloque2()
-            self.state = 105
+            self.state = 99
             self.bloque1()
-            self.state = 106
+            self.state = 100
             self.match(VoyagerParser.CIERRA_BRACKET)
         except RecognitionException as re:
             localctx.exception = re
@@ -487,14 +478,14 @@ class VoyagerParser ( Parser ):
         localctx = VoyagerParser.Bloque1Context(self, self._ctx, self.state)
         self.enterRule(localctx, 6, self.RULE_bloque1)
         try:
-            self.state = 112
+            self.state = 106
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.IMPRIMIR, VoyagerParser.SI, VoyagerParser.MIENTRAS, VoyagerParser.IGUAL, VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 108
+                self.state = 102
                 self.estatuto()
-                self.state = 109
+                self.state = 103
                 self.bloque1()
                 pass
             elif token in [VoyagerParser.REGRESA, VoyagerParser.CIERRA_BRACKET]:
@@ -545,14 +536,14 @@ class VoyagerParser ( Parser ):
         localctx = VoyagerParser.Bloque2Context(self, self._ctx, self.state)
         self.enterRule(localctx, 8, self.RULE_bloque2)
         try:
-            self.state = 118
+            self.state = 112
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.VAR]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 114
+                self.state = 108
                 self.declaracion()
-                self.state = 115
+                self.state = 109
                 self.bloque2()
                 pass
             elif token in [VoyagerParser.IMPRIMIR, VoyagerParser.SI, VoyagerParser.REGRESA, VoyagerParser.MIENTRAS, VoyagerParser.CIERRA_BRACKET, VoyagerParser.IGUAL, VoyagerParser.ID]:
@@ -603,14 +594,14 @@ class VoyagerParser ( Parser ):
         localctx = VoyagerParser.Bloque3Context(self, self._ctx, self.state)
         self.enterRule(localctx, 10, self.RULE_bloque3)
         try:
-            self.state = 124
+            self.state = 118
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ENTERO, VoyagerParser.CHAR, VoyagerParser.FLOTANTE, VoyagerParser.BOOL, VoyagerParser.VACIO]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 120
+                self.state = 114
                 self.func()
-                self.state = 121
+                self.state = 115
                 self.bloque3()
                 pass
             elif token in [VoyagerParser.VAR, VoyagerParser.IMPRIMIR, VoyagerParser.SI, VoyagerParser.MIENTRAS, VoyagerParser.CIERRA_BRACKET, VoyagerParser.IGUAL, VoyagerParser.ID]:
@@ -675,17 +666,17 @@ class VoyagerParser ( Parser ):
         self.enterRule(localctx, 12, self.RULE_func)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 126
+            self.state = 120
             self.typefunc()
-            self.state = 127
+            self.state = 121
             self.match(VoyagerParser.ID)
-            self.state = 128
+            self.state = 122
             self.match(VoyagerParser.ABRE_PAREN)
-            self.state = 129
+            self.state = 123
             self.parametros()
-            self.state = 130
+            self.state = 124
             self.match(VoyagerParser.CIERRA_PAREN)
-            self.state = 131
+            self.state = 125
             self.bloquefunc()
         except RecognitionException as re:
             localctx.exception = re
@@ -701,24 +692,24 @@ class VoyagerParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.TipoContext,0)
+        def tipo(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(VoyagerParser.TipoContext)
+            else:
+                return self.getTypedRuleContext(VoyagerParser.TipoContext,i)
 
 
-        def mete_tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.Mete_tipoContext,0)
+        def ID(self, i:int=None):
+            if i is None:
+                return self.getTokens(VoyagerParser.ID)
+            else:
+                return self.getToken(VoyagerParser.ID, i)
 
-
-        def ID(self):
-            return self.getToken(VoyagerParser.ID, 0)
-
-        def mete_id(self):
-            return self.getTypedRuleContext(VoyagerParser.Mete_idContext,0)
-
-
-        def parametros1(self):
-            return self.getTypedRuleContext(VoyagerParser.Parametros1Context,0)
-
+        def COMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(VoyagerParser.COMA)
+            else:
+                return self.getToken(VoyagerParser.COMA, i)
 
         def getRuleIndex(self):
             return VoyagerParser.RULE_parametros
@@ -738,102 +729,31 @@ class VoyagerParser ( Parser ):
 
         localctx = VoyagerParser.ParametrosContext(self, self._ctx, self.state)
         self.enterRule(localctx, 14, self.RULE_parametros)
+        self._la = 0 # Token type
         try:
-            self.state = 140
+            self.state = 139
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ENTERO, VoyagerParser.CHAR, VoyagerParser.FLOTANTE, VoyagerParser.BOOL]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 133
+                self.state = 127
                 self.tipo()
-                self.state = 134
-                self.mete_tipo()
+                self.state = 128
+                self.match(VoyagerParser.ID)
                 self.state = 135
-                self.match(VoyagerParser.ID)
-                self.state = 136
-                self.mete_id()
-                self.state = 137
-                self.parametros1()
-                pass
-            elif token in [VoyagerParser.CIERRA_PAREN]:
-                self.enterOuterAlt(localctx, 2)
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                while _la==VoyagerParser.COMA:
+                    self.state = 129
+                    self.match(VoyagerParser.COMA)
+                    self.state = 130
+                    self.tipo()
+                    self.state = 131
+                    self.match(VoyagerParser.ID)
+                    self.state = 137
+                    self._errHandler.sync(self)
+                    _la = self._input.LA(1)
 
-                pass
-            else:
-                raise NoViableAltException(self)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class Parametros1Context(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def COMA(self):
-            return self.getToken(VoyagerParser.COMA, 0)
-
-        def tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.TipoContext,0)
-
-
-        def mete_tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.Mete_tipoContext,0)
-
-
-        def ID(self):
-            return self.getToken(VoyagerParser.ID, 0)
-
-        def mete_id(self):
-            return self.getTypedRuleContext(VoyagerParser.Mete_idContext,0)
-
-
-        def parametros1(self):
-            return self.getTypedRuleContext(VoyagerParser.Parametros1Context,0)
-
-
-        def getRuleIndex(self):
-            return VoyagerParser.RULE_parametros1
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterParametros1" ):
-                listener.enterParametros1(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitParametros1" ):
-                listener.exitParametros1(self)
-
-
-
-
-    def parametros1(self):
-
-        localctx = VoyagerParser.Parametros1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_parametros1)
-        try:
-            self.state = 150
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [VoyagerParser.COMA]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 142
-                self.match(VoyagerParser.COMA)
-                self.state = 143
-                self.tipo()
-                self.state = 144
-                self.mete_tipo()
-                self.state = 145
-                self.match(VoyagerParser.ID)
-                self.state = 146
-                self.mete_id()
-                self.state = 147
-                self.parametros1()
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN]:
                 self.enterOuterAlt(localctx, 2)
@@ -883,18 +803,18 @@ class VoyagerParser ( Parser ):
     def bloquefunc1(self):
 
         localctx = VoyagerParser.Bloquefunc1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_bloquefunc1)
+        self.enterRule(localctx, 16, self.RULE_bloquefunc1)
         try:
-            self.state = 157
+            self.state = 146
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.REGRESA]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 152
+                self.state = 141
                 self.match(VoyagerParser.REGRESA)
-                self.state = 153
+                self.state = 142
                 self.expresion()
-                self.state = 154
+                self.state = 143
                 self.match(VoyagerParser.SEMI_COLON)
                 pass
             elif token in [VoyagerParser.CIERRA_BRACKET]:
@@ -942,19 +862,19 @@ class VoyagerParser ( Parser ):
     def typefunc(self):
 
         localctx = VoyagerParser.TypefuncContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_typefunc)
+        self.enterRule(localctx, 18, self.RULE_typefunc)
         try:
-            self.state = 161
+            self.state = 150
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ENTERO, VoyagerParser.CHAR, VoyagerParser.FLOTANTE, VoyagerParser.BOOL]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 159
+                self.state = 148
                 self.tipo()
                 pass
             elif token in [VoyagerParser.VACIO]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 160
+                self.state = 149
                 self.match(VoyagerParser.VACIO)
                 pass
             else:
@@ -1009,18 +929,18 @@ class VoyagerParser ( Parser ):
     def bloquefunc(self):
 
         localctx = VoyagerParser.BloquefuncContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_bloquefunc)
+        self.enterRule(localctx, 20, self.RULE_bloquefunc)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 163
+            self.state = 152
             self.match(VoyagerParser.ABRE_BRACKET)
-            self.state = 164
+            self.state = 153
             self.bloque2()
-            self.state = 165
+            self.state = 154
             self.bloque1()
-            self.state = 166
+            self.state = 155
             self.bloquefunc1()
-            self.state = 167
+            self.state = 156
             self.match(VoyagerParser.CIERRA_BRACKET)
         except RecognitionException as re:
             localctx.exception = re
@@ -1063,14 +983,14 @@ class VoyagerParser ( Parser ):
     def bloque(self):
 
         localctx = VoyagerParser.BloqueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_bloque)
+        self.enterRule(localctx, 22, self.RULE_bloque)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 169
+            self.state = 158
             self.match(VoyagerParser.ABRE_BRACKET)
-            self.state = 170
+            self.state = 159
             self.bloque1()
-            self.state = 171
+            self.state = 160
             self.match(VoyagerParser.CIERRA_BRACKET)
         except RecognitionException as re:
             localctx.exception = re
@@ -1116,20 +1036,20 @@ class VoyagerParser ( Parser ):
     def vector(self):
 
         localctx = VoyagerParser.VectorContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_vector)
+        self.enterRule(localctx, 24, self.RULE_vector)
         try:
-            self.state = 179
+            self.state = 168
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 173
+                self.state = 162
                 self.match(VoyagerParser.ID)
-                self.state = 174
+                self.state = 163
                 self.match(VoyagerParser.ABRE_CORCHETE)
-                self.state = 175
+                self.state = 164
                 self.exp()
-                self.state = 176
+                self.state = 165
                 self.match(VoyagerParser.CIERRA_CORCHETE)
                 pass
             elif token in [VoyagerParser.SEMI_COLON]:
@@ -1183,20 +1103,20 @@ class VoyagerParser ( Parser ):
     def vector_asigna(self):
 
         localctx = VoyagerParser.Vector_asignaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_vector_asigna)
+        self.enterRule(localctx, 26, self.RULE_vector_asigna)
         try:
-            self.state = 187
+            self.state = 176
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 181
+                self.state = 170
                 self.match(VoyagerParser.ID)
-                self.state = 182
+                self.state = 171
                 self.match(VoyagerParser.ABRE_CORCHETE)
-                self.state = 183
+                self.state = 172
                 self.exp()
-                self.state = 184
+                self.state = 173
                 self.match(VoyagerParser.CIERRA_CORCHETE)
                 pass
             elif token in [VoyagerParser.IGUAL]:
@@ -1260,40 +1180,40 @@ class VoyagerParser ( Parser ):
     def estatuto(self):
 
         localctx = VoyagerParser.EstatutoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_estatuto)
+        self.enterRule(localctx, 28, self.RULE_estatuto)
         try:
-            self.state = 196
+            self.state = 185
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 189
+                self.state = 178
                 self.asignacion()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 190
+                self.state = 179
                 self.condicion()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 191
+                self.state = 180
                 self.imprimir()
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 192
+                self.state = 181
                 self.llamada()
-                self.state = 193
+                self.state = 182
                 self.match(VoyagerParser.SEMI_COLON)
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 195
+                self.state = 184
                 self.ciclo()
                 pass
 
@@ -1343,16 +1263,16 @@ class VoyagerParser ( Parser ):
     def asignacion(self):
 
         localctx = VoyagerParser.AsignacionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_asignacion)
+        self.enterRule(localctx, 30, self.RULE_asignacion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 198
+            self.state = 187
             self.idvector_asigna()
-            self.state = 199
+            self.state = 188
             self.match(VoyagerParser.IGUAL)
-            self.state = 200
+            self.state = 189
             self.expresion()
-            self.state = 201
+            self.state = 190
             self.match(VoyagerParser.SEMI_COLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1392,20 +1312,20 @@ class VoyagerParser ( Parser ):
     def idvector_asigna(self):
 
         localctx = VoyagerParser.Idvector_asignaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_idvector_asigna)
+        self.enterRule(localctx, 32, self.RULE_idvector_asigna)
         try:
-            self.state = 205
+            self.state = 194
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 203
+                self.state = 192
                 self.match(VoyagerParser.ID)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 204
+                self.state = 193
                 self.vector_asigna()
                 pass
 
@@ -1466,22 +1386,22 @@ class VoyagerParser ( Parser ):
     def condicion(self):
 
         localctx = VoyagerParser.CondicionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 36, self.RULE_condicion)
+        self.enterRule(localctx, 34, self.RULE_condicion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 207
+            self.state = 196
             self.match(VoyagerParser.SI)
-            self.state = 208
+            self.state = 197
             self.match(VoyagerParser.ABRE_PAREN)
-            self.state = 209
+            self.state = 198
             self.expresion()
-            self.state = 210
+            self.state = 199
             self.match(VoyagerParser.CIERRA_PAREN)
-            self.state = 211
+            self.state = 200
             self.lee_condicion()
-            self.state = 212
+            self.state = 201
             self.bloque()
-            self.state = 213
+            self.state = 202
             self.condicion1()
         except RecognitionException as re:
             localctx.exception = re
@@ -1521,16 +1441,16 @@ class VoyagerParser ( Parser ):
     def condicion1(self):
 
         localctx = VoyagerParser.Condicion1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 38, self.RULE_condicion1)
+        self.enterRule(localctx, 36, self.RULE_condicion1)
         try:
-            self.state = 218
+            self.state = 207
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.SINO]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 215
+                self.state = 204
                 self.match(VoyagerParser.SINO)
-                self.state = 216
+                self.state = 205
                 self.bloque()
                 pass
             elif token in [VoyagerParser.IMPRIMIR, VoyagerParser.SI, VoyagerParser.REGRESA, VoyagerParser.MIENTRAS, VoyagerParser.CIERRA_BRACKET, VoyagerParser.IGUAL, VoyagerParser.ID]:
@@ -1585,16 +1505,16 @@ class VoyagerParser ( Parser ):
     def declaracion(self):
 
         localctx = VoyagerParser.DeclaracionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 40, self.RULE_declaracion)
+        self.enterRule(localctx, 38, self.RULE_declaracion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 220
+            self.state = 209
             self.match(VoyagerParser.VAR)
-            self.state = 221
+            self.state = 210
             self.tipo()
-            self.state = 222
+            self.state = 211
             self.idvector()
-            self.state = 223
+            self.state = 212
             self.match(VoyagerParser.SEMI_COLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1634,20 +1554,20 @@ class VoyagerParser ( Parser ):
     def idvector(self):
 
         localctx = VoyagerParser.IdvectorContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 42, self.RULE_idvector)
+        self.enterRule(localctx, 40, self.RULE_idvector)
         try:
-            self.state = 227
+            self.state = 216
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 225
+                self.state = 214
                 self.match(VoyagerParser.ID)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 226
+                self.state = 215
                 self.vector()
                 pass
 
@@ -1699,18 +1619,18 @@ class VoyagerParser ( Parser ):
     def imprimir(self):
 
         localctx = VoyagerParser.ImprimirContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 44, self.RULE_imprimir)
+        self.enterRule(localctx, 42, self.RULE_imprimir)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 229
+            self.state = 218
             self.match(VoyagerParser.IMPRIMIR)
-            self.state = 230
+            self.state = 219
             self.match(VoyagerParser.ABRE_PAREN)
-            self.state = 231
+            self.state = 220
             self.imprimir1()
-            self.state = 232
+            self.state = 221
             self.match(VoyagerParser.CIERRA_PAREN)
-            self.state = 233
+            self.state = 222
             self.match(VoyagerParser.SEMI_COLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1750,19 +1670,19 @@ class VoyagerParser ( Parser ):
     def imprimir1(self):
 
         localctx = VoyagerParser.Imprimir1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 46, self.RULE_imprimir1)
+        self.enterRule(localctx, 44, self.RULE_imprimir1)
         try:
-            self.state = 237
+            self.state = 226
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ABRE_PAREN, VoyagerParser.CIERRA_PAREN, VoyagerParser.SUMA, VoyagerParser.RESTA, VoyagerParser.DIV, VoyagerParser.MULT, VoyagerParser.MAS_QUE, VoyagerParser.MENOS_QUE, VoyagerParser.AND, VoyagerParser.OR, VoyagerParser.IGUAL_IGUAL, VoyagerParser.DIFERENTE_DE, VoyagerParser.CTE_E, VoyagerParser.CTE_F, VoyagerParser.CTE_C, VoyagerParser.CTE_B, VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 235
+                self.state = 224
                 self.expresion()
                 pass
             elif token in [VoyagerParser.LETRERO]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 236
+                self.state = 225
                 self.match(VoyagerParser.LETRERO)
                 pass
             else:
@@ -1820,20 +1740,20 @@ class VoyagerParser ( Parser ):
     def ciclo(self):
 
         localctx = VoyagerParser.CicloContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 48, self.RULE_ciclo)
+        self.enterRule(localctx, 46, self.RULE_ciclo)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 239
+            self.state = 228
             self.match(VoyagerParser.MIENTRAS)
-            self.state = 240
+            self.state = 229
             self.match(VoyagerParser.ABRE_PAREN)
-            self.state = 241
+            self.state = 230
             self.expresion()
-            self.state = 242
+            self.state = 231
             self.match(VoyagerParser.CIERRA_PAREN)
-            self.state = 243
+            self.state = 232
             self.lee_condicion()
-            self.state = 244
+            self.state = 233
             self.bloque()
         except RecognitionException as re:
             localctx.exception = re
@@ -1879,16 +1799,16 @@ class VoyagerParser ( Parser ):
     def llamada(self):
 
         localctx = VoyagerParser.LlamadaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 50, self.RULE_llamada)
+        self.enterRule(localctx, 48, self.RULE_llamada)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 246
+            self.state = 235
             self.match(VoyagerParser.ID)
-            self.state = 247
+            self.state = 236
             self.match(VoyagerParser.ABRE_PAREN)
-            self.state = 248
+            self.state = 237
             self.argumentos()
-            self.state = 249
+            self.state = 238
             self.match(VoyagerParser.CIERRA_PAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -1904,17 +1824,18 @@ class VoyagerParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def expresion(self):
-            return self.getTypedRuleContext(VoyagerParser.ExpresionContext,0)
+        def expresion(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(VoyagerParser.ExpresionContext)
+            else:
+                return self.getTypedRuleContext(VoyagerParser.ExpresionContext,i)
 
 
-        def verifica_tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.Verifica_tipoContext,0)
-
-
-        def argumentos1(self):
-            return self.getTypedRuleContext(VoyagerParser.Argumentos1Context,0)
-
+        def COMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(VoyagerParser.COMA)
+            else:
+                return self.getToken(VoyagerParser.COMA, i)
 
         def getRuleIndex(self):
             return VoyagerParser.RULE_argumentos
@@ -1933,19 +1854,28 @@ class VoyagerParser ( Parser ):
     def argumentos(self):
 
         localctx = VoyagerParser.ArgumentosContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 52, self.RULE_argumentos)
+        self.enterRule(localctx, 50, self.RULE_argumentos)
+        self._la = 0 # Token type
         try:
-            self.state = 256
+            self.state = 249
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 251
+                self.state = 240
                 self.expresion()
-                self.state = 252
-                self.verifica_tipo()
-                self.state = 253
-                self.argumentos1()
+                self.state = 245
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                while _la==VoyagerParser.COMA:
+                    self.state = 241
+                    self.match(VoyagerParser.COMA)
+                    self.state = 242
+                    self.expresion()
+                    self.state = 247
+                    self._errHandler.sync(self)
+                    _la = self._input.LA(1)
+
                 pass
 
             elif la_ == 2:
@@ -1953,81 +1883,6 @@ class VoyagerParser ( Parser ):
 
                 pass
 
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class Argumentos1Context(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def COMA(self):
-            return self.getToken(VoyagerParser.COMA, 0)
-
-        def sig_argumento(self):
-            return self.getTypedRuleContext(VoyagerParser.Sig_argumentoContext,0)
-
-
-        def expresion(self):
-            return self.getTypedRuleContext(VoyagerParser.ExpresionContext,0)
-
-
-        def verifica_tipo(self):
-            return self.getTypedRuleContext(VoyagerParser.Verifica_tipoContext,0)
-
-
-        def argumentos1(self):
-            return self.getTypedRuleContext(VoyagerParser.Argumentos1Context,0)
-
-
-        def getRuleIndex(self):
-            return VoyagerParser.RULE_argumentos1
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterArgumentos1" ):
-                listener.enterArgumentos1(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitArgumentos1" ):
-                listener.exitArgumentos1(self)
-
-
-
-
-    def argumentos1(self):
-
-        localctx = VoyagerParser.Argumentos1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 54, self.RULE_argumentos1)
-        try:
-            self.state = 265
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [VoyagerParser.COMA]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 258
-                self.match(VoyagerParser.COMA)
-                self.state = 259
-                self.sig_argumento()
-                self.state = 260
-                self.expresion()
-                self.state = 261
-                self.verifica_tipo()
-                self.state = 262
-                self.argumentos1()
-                pass
-            elif token in [VoyagerParser.CIERRA_PAREN]:
-                self.enterOuterAlt(localctx, 2)
-
-                pass
-            else:
-                raise NoViableAltException(self)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -2068,12 +1923,12 @@ class VoyagerParser ( Parser ):
     def expbool(self):
 
         localctx = VoyagerParser.ExpboolContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 56, self.RULE_expbool)
+        self.enterRule(localctx, 52, self.RULE_expbool)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 267
+            self.state = 251
             self.exp()
-            self.state = 268
+            self.state = 252
             self.expbool1()
         except RecognitionException as re:
             localctx.exception = re
@@ -2122,37 +1977,37 @@ class VoyagerParser ( Parser ):
     def expbool1(self):
 
         localctx = VoyagerParser.Expbool1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 58, self.RULE_expbool1)
+        self.enterRule(localctx, 54, self.RULE_expbool1)
         try:
-            self.state = 279
+            self.state = 263
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.MAS_QUE]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 270
+                self.state = 254
                 self.match(VoyagerParser.MAS_QUE)
-                self.state = 271
+                self.state = 255
                 self.exp()
                 pass
             elif token in [VoyagerParser.MENOS_QUE]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 272
+                self.state = 256
                 self.match(VoyagerParser.MENOS_QUE)
-                self.state = 273
+                self.state = 257
                 self.exp()
                 pass
             elif token in [VoyagerParser.IGUAL_IGUAL]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 274
+                self.state = 258
                 self.match(VoyagerParser.IGUAL_IGUAL)
-                self.state = 275
+                self.state = 259
                 self.exp()
                 pass
             elif token in [VoyagerParser.DIFERENTE_DE]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 276
+                self.state = 260
                 self.match(VoyagerParser.DIFERENTE_DE)
-                self.state = 277
+                self.state = 261
                 self.exp()
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.SEMI_COLON, VoyagerParser.COMA, VoyagerParser.AND, VoyagerParser.OR]:
@@ -2201,12 +2056,12 @@ class VoyagerParser ( Parser ):
     def expresion(self):
 
         localctx = VoyagerParser.ExpresionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 60, self.RULE_expresion)
+        self.enterRule(localctx, 56, self.RULE_expresion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 281
+            self.state = 265
             self.expbool()
-            self.state = 282
+            self.state = 266
             self.expresion1()
         except RecognitionException as re:
             localctx.exception = re
@@ -2249,23 +2104,23 @@ class VoyagerParser ( Parser ):
     def expresion1(self):
 
         localctx = VoyagerParser.Expresion1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 62, self.RULE_expresion1)
+        self.enterRule(localctx, 58, self.RULE_expresion1)
         try:
-            self.state = 289
+            self.state = 273
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.AND]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 284
+                self.state = 268
                 self.match(VoyagerParser.AND)
-                self.state = 285
+                self.state = 269
                 self.expbool()
                 pass
             elif token in [VoyagerParser.OR]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 286
+                self.state = 270
                 self.match(VoyagerParser.OR)
-                self.state = 287
+                self.state = 271
                 self.expbool()
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.SEMI_COLON, VoyagerParser.COMA]:
@@ -2314,12 +2169,12 @@ class VoyagerParser ( Parser ):
     def exp(self):
 
         localctx = VoyagerParser.ExpContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 64, self.RULE_exp)
+        self.enterRule(localctx, 60, self.RULE_exp)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 291
+            self.state = 275
             self.termino()
-            self.state = 292
+            self.state = 276
             self.exp1()
         except RecognitionException as re:
             localctx.exception = re
@@ -2362,23 +2217,23 @@ class VoyagerParser ( Parser ):
     def exp1(self):
 
         localctx = VoyagerParser.Exp1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 66, self.RULE_exp1)
+        self.enterRule(localctx, 62, self.RULE_exp1)
         try:
-            self.state = 299
+            self.state = 283
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.SUMA]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 294
+                self.state = 278
                 self.match(VoyagerParser.SUMA)
-                self.state = 295
+                self.state = 279
                 self.termino()
                 pass
             elif token in [VoyagerParser.RESTA]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 296
+                self.state = 280
                 self.match(VoyagerParser.RESTA)
-                self.state = 297
+                self.state = 281
                 self.termino()
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.CIERRA_CORCHETE, VoyagerParser.SEMI_COLON, VoyagerParser.COMA, VoyagerParser.MAS_QUE, VoyagerParser.MENOS_QUE, VoyagerParser.AND, VoyagerParser.OR, VoyagerParser.IGUAL_IGUAL, VoyagerParser.DIFERENTE_DE]:
@@ -2427,12 +2282,12 @@ class VoyagerParser ( Parser ):
     def termino(self):
 
         localctx = VoyagerParser.TerminoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 68, self.RULE_termino)
+        self.enterRule(localctx, 64, self.RULE_termino)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 301
+            self.state = 285
             self.factor()
-            self.state = 302
+            self.state = 286
             self.termino2()
         except RecognitionException as re:
             localctx.exception = re
@@ -2475,23 +2330,23 @@ class VoyagerParser ( Parser ):
     def termino2(self):
 
         localctx = VoyagerParser.Termino2Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 70, self.RULE_termino2)
+        self.enterRule(localctx, 66, self.RULE_termino2)
         try:
-            self.state = 309
+            self.state = 293
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.MULT]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 304
+                self.state = 288
                 self.match(VoyagerParser.MULT)
-                self.state = 305
+                self.state = 289
                 self.factor()
                 pass
             elif token in [VoyagerParser.DIV]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 306
+                self.state = 290
                 self.match(VoyagerParser.DIV)
-                self.state = 307
+                self.state = 291
                 self.factor()
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.CIERRA_CORCHETE, VoyagerParser.SEMI_COLON, VoyagerParser.COMA, VoyagerParser.SUMA, VoyagerParser.RESTA, VoyagerParser.MAS_QUE, VoyagerParser.MENOS_QUE, VoyagerParser.AND, VoyagerParser.OR, VoyagerParser.IGUAL_IGUAL, VoyagerParser.DIFERENTE_DE]:
@@ -2546,23 +2401,23 @@ class VoyagerParser ( Parser ):
     def factor(self):
 
         localctx = VoyagerParser.FactorContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 72, self.RULE_factor)
+        self.enterRule(localctx, 68, self.RULE_factor)
         try:
-            self.state = 316
+            self.state = 300
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ABRE_PAREN]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 311
+                self.state = 295
                 self.match(VoyagerParser.ABRE_PAREN)
-                self.state = 312
+                self.state = 296
                 self.expresion()
-                self.state = 313
+                self.state = 297
                 self.match(VoyagerParser.CIERRA_PAREN)
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.CIERRA_CORCHETE, VoyagerParser.SEMI_COLON, VoyagerParser.COMA, VoyagerParser.SUMA, VoyagerParser.RESTA, VoyagerParser.DIV, VoyagerParser.MULT, VoyagerParser.MAS_QUE, VoyagerParser.MENOS_QUE, VoyagerParser.AND, VoyagerParser.OR, VoyagerParser.IGUAL_IGUAL, VoyagerParser.DIFERENTE_DE, VoyagerParser.CTE_E, VoyagerParser.CTE_F, VoyagerParser.CTE_C, VoyagerParser.CTE_B, VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 315
+                self.state = 299
                 self.operando()
                 pass
             else:
@@ -2582,9 +2437,17 @@ class VoyagerParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def cte_var(self):
-            return self.getTypedRuleContext(VoyagerParser.Cte_varContext,0)
+        def CTE_B(self):
+            return self.getToken(VoyagerParser.CTE_B, 0)
 
+        def CTE_E(self):
+            return self.getToken(VoyagerParser.CTE_E, 0)
+
+        def CTE_F(self):
+            return self.getToken(VoyagerParser.CTE_F, 0)
+
+        def CTE_C(self):
+            return self.getToken(VoyagerParser.CTE_C, 0)
 
         def llamada(self):
             return self.getTypedRuleContext(VoyagerParser.LlamadaContext,0)
@@ -2614,90 +2477,54 @@ class VoyagerParser ( Parser ):
     def operando(self):
 
         localctx = VoyagerParser.OperandoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 74, self.RULE_operando)
+        self.enterRule(localctx, 70, self.RULE_operando)
         try:
-            self.state = 322
+            self.state = 309
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,22,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 318
-                self.cte_var()
+                self.state = 302
+                self.match(VoyagerParser.CTE_B)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 319
-                self.llamada()
+                self.state = 303
+                self.match(VoyagerParser.CTE_E)
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 320
-                self.match(VoyagerParser.ID)
+                self.state = 304
+                self.match(VoyagerParser.CTE_F)
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 321
+                self.state = 305
+                self.match(VoyagerParser.CTE_C)
+                pass
+
+            elif la_ == 5:
+                self.enterOuterAlt(localctx, 5)
+                self.state = 306
+                self.llamada()
+                pass
+
+            elif la_ == 6:
+                self.enterOuterAlt(localctx, 6)
+                self.state = 307
+                self.match(VoyagerParser.ID)
+                pass
+
+            elif la_ == 7:
+                self.enterOuterAlt(localctx, 7)
+                self.state = 308
                 self.vector_acceso()
                 pass
 
 
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-    class Cte_varContext(ParserRuleContext):
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def CTE_B(self):
-            return self.getToken(VoyagerParser.CTE_B, 0)
-
-        def CTE_E(self):
-            return self.getToken(VoyagerParser.CTE_E, 0)
-
-        def CTE_F(self):
-            return self.getToken(VoyagerParser.CTE_F, 0)
-
-        def CTE_C(self):
-            return self.getToken(VoyagerParser.CTE_C, 0)
-
-        def getRuleIndex(self):
-            return VoyagerParser.RULE_cte_var
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterCte_var" ):
-                listener.enterCte_var(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitCte_var" ):
-                listener.exitCte_var(self)
-
-
-
-
-    def cte_var(self):
-
-        localctx = VoyagerParser.Cte_varContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 76, self.RULE_cte_var)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 324
-            _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << VoyagerParser.CTE_E) | (1 << VoyagerParser.CTE_F) | (1 << VoyagerParser.CTE_C) | (1 << VoyagerParser.CTE_B))) != 0)):
-                self._errHandler.recoverInline(self)
-            else:
-                self._errHandler.reportMatch(self)
-                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -2742,20 +2569,20 @@ class VoyagerParser ( Parser ):
     def vector_acceso(self):
 
         localctx = VoyagerParser.Vector_accesoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 78, self.RULE_vector_acceso)
+        self.enterRule(localctx, 72, self.RULE_vector_acceso)
         try:
-            self.state = 332
+            self.state = 317
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [VoyagerParser.ID]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 326
+                self.state = 311
                 self.match(VoyagerParser.ID)
-                self.state = 327
+                self.state = 312
                 self.match(VoyagerParser.ABRE_CORCHETE)
-                self.state = 328
+                self.state = 313
                 self.exp()
-                self.state = 329
+                self.state = 314
                 self.match(VoyagerParser.CIERRA_CORCHETE)
                 pass
             elif token in [VoyagerParser.CIERRA_PAREN, VoyagerParser.CIERRA_CORCHETE, VoyagerParser.SEMI_COLON, VoyagerParser.COMA, VoyagerParser.SUMA, VoyagerParser.RESTA, VoyagerParser.DIV, VoyagerParser.MULT, VoyagerParser.MAS_QUE, VoyagerParser.MENOS_QUE, VoyagerParser.AND, VoyagerParser.OR, VoyagerParser.IGUAL_IGUAL, VoyagerParser.DIFERENTE_DE]:
@@ -2808,11 +2635,11 @@ class VoyagerParser ( Parser ):
     def tipo(self):
 
         localctx = VoyagerParser.TipoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 80, self.RULE_tipo)
+        self.enterRule(localctx, 74, self.RULE_tipo)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 334
+            self.state = 319
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << VoyagerParser.ENTERO) | (1 << VoyagerParser.CHAR) | (1 << VoyagerParser.FLOTANTE) | (1 << VoyagerParser.BOOL))) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2851,7 +2678,7 @@ class VoyagerParser ( Parser ):
     def lee_condicion(self):
 
         localctx = VoyagerParser.Lee_condicionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 82, self.RULE_lee_condicion)
+        self.enterRule(localctx, 76, self.RULE_lee_condicion)
         try:
             self.enterOuterAlt(localctx, 1)
 
@@ -2887,7 +2714,7 @@ class VoyagerParser ( Parser ):
     def verifica_tipo(self):
 
         localctx = VoyagerParser.Verifica_tipoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 84, self.RULE_verifica_tipo)
+        self.enterRule(localctx, 78, self.RULE_verifica_tipo)
         try:
             self.enterOuterAlt(localctx, 1)
 
@@ -2923,7 +2750,7 @@ class VoyagerParser ( Parser ):
     def sig_argumento(self):
 
         localctx = VoyagerParser.Sig_argumentoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 86, self.RULE_sig_argumento)
+        self.enterRule(localctx, 80, self.RULE_sig_argumento)
         try:
             self.enterOuterAlt(localctx, 1)
 
@@ -2959,7 +2786,7 @@ class VoyagerParser ( Parser ):
     def mete_tipo(self):
 
         localctx = VoyagerParser.Mete_tipoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 88, self.RULE_mete_tipo)
+        self.enterRule(localctx, 82, self.RULE_mete_tipo)
         try:
             self.enterOuterAlt(localctx, 1)
 
@@ -2995,7 +2822,7 @@ class VoyagerParser ( Parser ):
     def mete_id(self):
 
         localctx = VoyagerParser.Mete_idContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 90, self.RULE_mete_id)
+        self.enterRule(localctx, 84, self.RULE_mete_id)
         try:
             self.enterOuterAlt(localctx, 1)
 

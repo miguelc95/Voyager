@@ -16,8 +16,7 @@ bloque3                : func bloque3 | /*epsilon*/;
 
 func                   : typefunc ID ABRE_PAREN parametros CIERRA_PAREN bloquefunc;
 
-parametros             : tipo mete_tipo ID mete_id  parametros1 |  /*epsilon*/;
-parametros1            : COMA tipo mete_tipo ID mete_id parametros1 | /*epsilon*/;
+parametros             : tipo ID (COMA tipo ID )* |  /*epsilon*/;
 
 bloquefunc1            : REGRESA expresion SEMI_COLON | /*epsilon*/;
 
@@ -48,9 +47,7 @@ ciclo                  : MIENTRAS ABRE_PAREN expresion CIERRA_PAREN lee_condicio
 
 llamada                : ID ABRE_PAREN argumentos CIERRA_PAREN;
 
-argumentos             : expresion verifica_tipo argumentos1 | /*epsilon*/;
-argumentos1            : COMA sig_argumento expresion verifica_tipo argumentos1 |  /*epsilon*/;
-
+argumentos             : expresion (COMA expresion )* |  /*epsilon*/;
 
 expbool                : exp expbool1;
 expbool1               : MAS_QUE exp | MENOS_QUE exp | IGUAL_IGUAL exp | DIFERENTE_DE exp | /*epsilon*/;
@@ -66,8 +63,7 @@ termino2               : MULT factor | DIV factor| /*epsilon*/;
 
 factor                 : ABRE_PAREN expresion CIERRA_PAREN | operando;
 
-operando               : cte_var | llamada | ID | vector_acceso;
-cte_var                : CTE_B | CTE_E | CTE_F | CTE_C;
+operando               : CTE_B | CTE_E | CTE_F | CTE_C | llamada | ID | vector_acceso;
 
 vector_acceso          : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
