@@ -4,7 +4,9 @@ programa {
     }
 
     entero bye () {
-	regresa 1 + 1; 
+    var bool a;
+    a = falso;
+	regresa a; 
     }
  
    var entero var1;

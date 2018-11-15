@@ -77,35 +77,15 @@ public interface VoyagerListener extends ParseTreeListener {
 	 */
 	void exitFunc(VoyagerParser.FuncContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#typeid}.
+	 * Enter a parse tree produced by {@link VoyagerParser#parametros}.
 	 * @param ctx the parse tree
 	 */
-	void enterTypeid(VoyagerParser.TypeidContext ctx);
+	void enterParametros(VoyagerParser.ParametrosContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#typeid}.
+	 * Exit a parse tree produced by {@link VoyagerParser#parametros}.
 	 * @param ctx the parse tree
 	 */
-	void exitTypeid(VoyagerParser.TypeidContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#func1}.
-	 * @param ctx the parse tree
-	 */
-	void enterFunc1(VoyagerParser.Func1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#func1}.
-	 * @param ctx the parse tree
-	 */
-	void exitFunc1(VoyagerParser.Func1Context ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#func2}.
-	 * @param ctx the parse tree
-	 */
-	void enterFunc2(VoyagerParser.Func2Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#func2}.
-	 * @param ctx the parse tree
-	 */
-	void exitFunc2(VoyagerParser.Func2Context ctx);
+	void exitParametros(VoyagerParser.ParametrosContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#bloquefunc1}.
 	 * @param ctx the parse tree
@@ -157,15 +137,15 @@ public interface VoyagerListener extends ParseTreeListener {
 	 */
 	void exitVector(VoyagerParser.VectorContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#vector1}.
+	 * Enter a parse tree produced by {@link VoyagerParser#vector_asigna}.
 	 * @param ctx the parse tree
 	 */
-	void enterVector1(VoyagerParser.Vector1Context ctx);
+	void enterVector_asigna(VoyagerParser.Vector_asignaContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#vector1}.
+	 * Exit a parse tree produced by {@link VoyagerParser#vector_asigna}.
 	 * @param ctx the parse tree
 	 */
-	void exitVector1(VoyagerParser.Vector1Context ctx);
+	void exitVector_asigna(VoyagerParser.Vector_asignaContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#estatuto}.
 	 * @param ctx the parse tree
@@ -186,6 +166,16 @@ public interface VoyagerListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitAsignacion(VoyagerParser.AsignacionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#idvector_asigna}.
+	 * @param ctx the parse tree
+	 */
+	void enterIdvector_asigna(VoyagerParser.Idvector_asignaContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#idvector_asigna}.
+	 * @param ctx the parse tree
+	 */
+	void exitIdvector_asigna(VoyagerParser.Idvector_asignaContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#condicion}.
 	 * @param ctx the parse tree
@@ -216,6 +206,16 @@ public interface VoyagerListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitDeclaracion(VoyagerParser.DeclaracionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#idvector}.
+	 * @param ctx the parse tree
+	 */
+	void enterIdvector(VoyagerParser.IdvectorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#idvector}.
+	 * @param ctx the parse tree
+	 */
+	void exitIdvector(VoyagerParser.IdvectorContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#imprimir}.
 	 * @param ctx the parse tree
@@ -257,45 +257,15 @@ public interface VoyagerListener extends ParseTreeListener {
 	 */
 	void exitLlamada(VoyagerParser.LlamadaContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#parametros}.
+	 * Enter a parse tree produced by {@link VoyagerParser#argumentos}.
 	 * @param ctx the parse tree
 	 */
-	void enterParametros(VoyagerParser.ParametrosContext ctx);
+	void enterArgumentos(VoyagerParser.ArgumentosContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#parametros}.
+	 * Exit a parse tree produced by {@link VoyagerParser#argumentos}.
 	 * @param ctx the parse tree
 	 */
-	void exitParametros(VoyagerParser.ParametrosContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#parametros1}.
-	 * @param ctx the parse tree
-	 */
-	void enterParametros1(VoyagerParser.Parametros1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#parametros1}.
-	 * @param ctx the parse tree
-	 */
-	void exitParametros1(VoyagerParser.Parametros1Context ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#expresion}.
-	 * @param ctx the parse tree
-	 */
-	void enterExpresion(VoyagerParser.ExpresionContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#expresion}.
-	 * @param ctx the parse tree
-	 */
-	void exitExpresion(VoyagerParser.ExpresionContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#expresion1}.
-	 * @param ctx the parse tree
-	 */
-	void enterExpresion1(VoyagerParser.Expresion1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#expresion1}.
-	 * @param ctx the parse tree
-	 */
-	void exitExpresion1(VoyagerParser.Expresion1Context ctx);
+	void exitArgumentos(VoyagerParser.ArgumentosContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#expbool}.
 	 * @param ctx the parse tree
@@ -316,6 +286,26 @@ public interface VoyagerListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitExpbool1(VoyagerParser.Expbool1Context ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#expresion}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpresion(VoyagerParser.ExpresionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#expresion}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpresion(VoyagerParser.ExpresionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#expresion1}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpresion1(VoyagerParser.Expresion1Context ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#expresion1}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpresion1(VoyagerParser.Expresion1Context ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#exp}.
 	 * @param ctx the parse tree
@@ -367,16 +357,6 @@ public interface VoyagerListener extends ParseTreeListener {
 	 */
 	void exitFactor(VoyagerParser.FactorContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#factor2}.
-	 * @param ctx the parse tree
-	 */
-	void enterFactor2(VoyagerParser.Factor2Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#factor2}.
-	 * @param ctx the parse tree
-	 */
-	void exitFactor2(VoyagerParser.Factor2Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#operando}.
 	 * @param ctx the parse tree
 	 */
@@ -387,35 +367,15 @@ public interface VoyagerListener extends ParseTreeListener {
 	 */
 	void exitOperando(VoyagerParser.OperandoContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#cte_var}.
+	 * Enter a parse tree produced by {@link VoyagerParser#vector_acceso}.
 	 * @param ctx the parse tree
 	 */
-	void enterCte_var(VoyagerParser.Cte_varContext ctx);
+	void enterVector_acceso(VoyagerParser.Vector_accesoContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#cte_var}.
+	 * Exit a parse tree produced by {@link VoyagerParser#vector_acceso}.
 	 * @param ctx the parse tree
 	 */
-	void exitCte_var(VoyagerParser.Cte_varContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#variable1}.
-	 * @param ctx the parse tree
-	 */
-	void enterVariable1(VoyagerParser.Variable1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#variable1}.
-	 * @param ctx the parse tree
-	 */
-	void exitVariable1(VoyagerParser.Variable1Context ctx);
-	/**
-	 * Enter a parse tree produced by {@link VoyagerParser#variable2}.
-	 * @param ctx the parse tree
-	 */
-	void enterVariable2(VoyagerParser.Variable2Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link VoyagerParser#variable2}.
-	 * @param ctx the parse tree
-	 */
-	void exitVariable2(VoyagerParser.Variable2Context ctx);
+	void exitVector_acceso(VoyagerParser.Vector_accesoContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link VoyagerParser#tipo}.
 	 * @param ctx the parse tree
@@ -426,4 +386,54 @@ public interface VoyagerListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitTipo(VoyagerParser.TipoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#lee_condicion}.
+	 * @param ctx the parse tree
+	 */
+	void enterLee_condicion(VoyagerParser.Lee_condicionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#lee_condicion}.
+	 * @param ctx the parse tree
+	 */
+	void exitLee_condicion(VoyagerParser.Lee_condicionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#verifica_tipo}.
+	 * @param ctx the parse tree
+	 */
+	void enterVerifica_tipo(VoyagerParser.Verifica_tipoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#verifica_tipo}.
+	 * @param ctx the parse tree
+	 */
+	void exitVerifica_tipo(VoyagerParser.Verifica_tipoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#sig_argumento}.
+	 * @param ctx the parse tree
+	 */
+	void enterSig_argumento(VoyagerParser.Sig_argumentoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#sig_argumento}.
+	 * @param ctx the parse tree
+	 */
+	void exitSig_argumento(VoyagerParser.Sig_argumentoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#mete_tipo}.
+	 * @param ctx the parse tree
+	 */
+	void enterMete_tipo(VoyagerParser.Mete_tipoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#mete_tipo}.
+	 * @param ctx the parse tree
+	 */
+	void exitMete_tipo(VoyagerParser.Mete_tipoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link VoyagerParser#mete_id}.
+	 * @param ctx the parse tree
+	 */
+	void enterMete_id(VoyagerParser.Mete_idContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link VoyagerParser#mete_id}.
+	 * @param ctx the parse tree
+	 */
+	void exitMete_id(VoyagerParser.Mete_idContext ctx);
 }

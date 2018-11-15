@@ -10,7 +10,7 @@ from collections import deque
 class Armstrong(VoyagerListener):
     listFunc = []
     tablaFunc = dirFunc()
-
+    """pilaO operandos"""
     PilaO = []
     PTypes = []
     POper = []

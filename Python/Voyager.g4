@@ -63,7 +63,7 @@ termino2               : MULT factor | DIV factor| /*epsilon*/;
 
 factor                 : ABRE_PAREN expresion CIERRA_PAREN | operando;
 
-operando               : CTE_B | CTE_E | CTE_F | CTE_C | llamada | ID | vector_acceso;
+operando               : 'verdadero' | 'falso' | CTE_E | CTE_F | CTE_C | llamada | ID |  vector_acceso;
 
 vector_acceso          : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 

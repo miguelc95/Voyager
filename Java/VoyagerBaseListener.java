@@ -99,37 +99,13 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTypeid(VoyagerParser.TypeidContext ctx) { }
+	@Override public void enterParametros(VoyagerParser.ParametrosContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTypeid(VoyagerParser.TypeidContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterFunc1(VoyagerParser.Func1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitFunc1(VoyagerParser.Func1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterFunc2(VoyagerParser.Func2Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitFunc2(VoyagerParser.Func2Context ctx) { }
+	@Override public void exitParametros(VoyagerParser.ParametrosContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -195,13 +171,13 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVector1(VoyagerParser.Vector1Context ctx) { }
+	@Override public void enterVector_asigna(VoyagerParser.Vector_asignaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVector1(VoyagerParser.Vector1Context ctx) { }
+	@Override public void exitVector_asigna(VoyagerParser.Vector_asignaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -226,6 +202,18 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAsignacion(VoyagerParser.AsignacionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterIdvector_asigna(VoyagerParser.Idvector_asignaContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitIdvector_asigna(VoyagerParser.Idvector_asignaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -262,6 +250,18 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclaracion(VoyagerParser.DeclaracionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterIdvector(VoyagerParser.IdvectorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitIdvector(VoyagerParser.IdvectorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -315,49 +315,13 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParametros(VoyagerParser.ParametrosContext ctx) { }
+	@Override public void enterArgumentos(VoyagerParser.ArgumentosContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParametros(VoyagerParser.ParametrosContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterParametros1(VoyagerParser.Parametros1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitParametros1(VoyagerParser.Parametros1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterExpresion(VoyagerParser.ExpresionContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitExpresion(VoyagerParser.ExpresionContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterExpresion1(VoyagerParser.Expresion1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitExpresion1(VoyagerParser.Expresion1Context ctx) { }
+	@Override public void exitArgumentos(VoyagerParser.ArgumentosContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -382,6 +346,30 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExpbool1(VoyagerParser.Expbool1Context ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterExpresion(VoyagerParser.ExpresionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitExpresion(VoyagerParser.ExpresionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterExpresion1(VoyagerParser.Expresion1Context ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitExpresion1(VoyagerParser.Expresion1Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -447,18 +435,6 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFactor2(VoyagerParser.Factor2Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitFactor2(VoyagerParser.Factor2Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterOperando(VoyagerParser.OperandoContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -471,37 +447,13 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCte_var(VoyagerParser.Cte_varContext ctx) { }
+	@Override public void enterVector_acceso(VoyagerParser.Vector_accesoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCte_var(VoyagerParser.Cte_varContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterVariable1(VoyagerParser.Variable1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitVariable1(VoyagerParser.Variable1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterVariable2(VoyagerParser.Variable2Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitVariable2(VoyagerParser.Variable2Context ctx) { }
+	@Override public void exitVector_acceso(VoyagerParser.Vector_accesoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -514,6 +466,66 @@ public class VoyagerBaseListener implements VoyagerListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTipo(VoyagerParser.TipoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterLee_condicion(VoyagerParser.Lee_condicionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitLee_condicion(VoyagerParser.Lee_condicionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterVerifica_tipo(VoyagerParser.Verifica_tipoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitVerifica_tipo(VoyagerParser.Verifica_tipoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSig_argumento(VoyagerParser.Sig_argumentoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSig_argumento(VoyagerParser.Sig_argumentoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMete_tipo(VoyagerParser.Mete_tipoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMete_tipo(VoyagerParser.Mete_tipoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMete_id(VoyagerParser.Mete_idContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMete_id(VoyagerParser.Mete_idContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
