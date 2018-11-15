@@ -1,4 +1,4 @@
-// Generated from /Users/iramD24/Workspace/Compiler/Voyager/Python/Voyager.g4 by ANTLR 4.7.1
+// Generated from /Users/miguelcuellar/Desktop/Campus/9no Semestre/Compis/Voyager/Voyager/Python/Voyager.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -147,7 +147,7 @@ public class VoyagerLexer extends Lexer {
 		"CCcc\4\2DDdd\4\2EEee\4\2FFff\4\2GGgg\4\2HHhh\4\2IIii\4\2KKkk\4\2QQqq\4"+
 		"\2UUuu\4\2[[{{\4\2JJjj\4\2WWww\4\2XXxx\4\2VVvv\4\2NNnn\4\2OOoo\4\2PPp"+
 		"p\4\2RRrr\4\2TTtt\4\2ZZzz\3\2c|\3\2C\\\5\2\62;C\\c|\4\2C\\c|\6\2\62;C"+
-		"\\aac|\5\2\13\f\17\17\"\"\2\u0196\2\3\3\2\2\2\2\5\3\2\2\2\2C\3\2\2\2\2"+
+		"\\aac|\5\2\13\f\16\17\"\"\2\u0196\2\3\3\2\2\2\2\5\3\2\2\2\2C\3\2\2\2\2"+
 		"E\3\2\2\2\2G\3\2\2\2\2I\3\2\2\2\2K\3\2\2\2\2M\3\2\2\2\2O\3\2\2\2\2Q\3"+
 		"\2\2\2\2S\3\2\2\2\2U\3\2\2\2\2W\3\2\2\2\2Y\3\2\2\2\2[\3\2\2\2\2]\3\2\2"+
 		"\2\2_\3\2\2\2\2a\3\2\2\2\2c\3\2\2\2\2e\3\2\2\2\2g\3\2\2\2\2i\3\2\2\2\2"+

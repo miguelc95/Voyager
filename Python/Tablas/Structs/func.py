@@ -1,4 +1,4 @@
-import variable
+from Tablas.Structs.variable import variable
 class func:
 
     def __init__(self,tipo,nombre):
