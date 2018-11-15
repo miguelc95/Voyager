@@ -31,6 +31,8 @@ class Armstrong(VoyagerListener):
         if self.tablaFunc.exists(ctx.ID().getText()):
             print ("Error ya existe una función con ese nombre")
         else:
+            self.actualCtx = ctx.ID().getText();
+            """reset locales y temporales"""
             funcObj = func(ctx.typefunc().getText(), ctx.ID().getText())
             for i, nombre in enumerate(ctx.parametros().ID()):
                 varObj = variable(nombre.getText(), ctx.parametros().tipo()[i].getText())

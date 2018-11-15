@@ -9,7 +9,8 @@ voyager                : program+ EOF ;
 
 program                : PROGRAMA bloqueprogram;
 
-bloqueprogram          : ABRE_BRACKET bloque3 bloque2 bloque1 CIERRA_BRACKET;
+bloqueprogram          : ABRE_BRACKET bloque2 bloque3 main CIERRA_BRACKET;
+main                   : MAIN ABRE_BRACKET bloque1 CIERRA_BRACKET;
 bloque1                : estatuto bloque1 | /*epsilon*/;
 bloque2                : declaracion bloque2 | /*epsilon*/;
 bloque3                : func bloque3 | /*epsilon*/;
@@ -163,6 +164,8 @@ VAR                 : V A R;
 IMPRIMIR            : I M P R I M I R;
 
 SI                  : S I;
+
+MAIN                : M A I N;
 
 SINO                : S I N O;
 
