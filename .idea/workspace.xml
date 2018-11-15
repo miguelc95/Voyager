@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="605bd6a8-944d-4623-97ce-b100d60e9468" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.antlr/VoyagerLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.antlr/VoyagerLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.antlr/VoyagerLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.antlr/VoyagerLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.antlr/VoyagerParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.antlr/VoyagerParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Armstrong.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Armstrong.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Tablas/Structs/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tablas/Structs/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Tablas/dirfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tablas/dirFunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Tablas/dirFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tablas/dirFunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Voyager.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Voyager.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Voyager.interp" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Voyager.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Voyager.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Voyager.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/VoyagerLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/Python/VoyagerLexer.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/VoyagerLexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/VoyagerLexer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/VoyagerLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/Python/VoyagerLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/VoyagerListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/VoyagerListener.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/VoyagerParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/VoyagerParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,24 +37,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="930" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="1498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="930" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="1498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -55,27 +62,37 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python/Armstrong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="-707">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <marker date="1541653253000" expanded="true" signature="159:164" ph="..." />
-                <marker date="1541653253000" expanded="true" signature="240:514" ph="..." />
-                <marker date="1541653253000" expanded="true" signature="355:391" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/main.py">
+        <entry file="file://$PROJECT_DIR$/Python/Echo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <marker date="1542257770000" expanded="true" signature="654:655" ph="..." />
+                <marker date="1542257770000" expanded="true" signature="678:680" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -83,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/VoyagerLexer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="256" column="33" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
+            <state relative-caret-position="-543">
+              <caret line="191" column="56" selection-start-line="191" selection-start-column="56" selection-end-line="191" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -92,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/VoyagerListener.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" selection-start-line="20" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -101,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Tablas/dirFunc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -111,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/Python/Tablas/Structs/func.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -138,6 +155,7 @@
       <find>nterF</find>
       <find>impri</find>
       <find>enterPro</find>
+      <find>exit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,6 +170,8 @@
         <option value="$PROJECT_DIR$/Python/main.py" />
         <option value="$PROJECT_DIR$/Python/Tablas/dirFunc.py" />
         <option value="$PROJECT_DIR$/Python/VoyagerListener.py" />
+        <option value="$PROJECT_DIR$/Python/Memoria.py" />
+        <option value="$PROJECT_DIR$/Python/Echo.py" />
         <option value="$PROJECT_DIR$/Python/Armstrong.py" />
       </list>
     </option>
@@ -163,8 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -174,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,23 +207,11 @@
               <item name="Voyager" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Voyager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Voyager" type="462c0819:PsiDirectoryNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Tablas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Voyager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Voyager" type="462c0819:PsiDirectoryNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Tablas" type="462c0819:PsiDirectoryNode" />
-              <item name="Structs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,15 +247,9 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24555735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -255,11 +257,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,14 +289,14 @@
     <entry file="file://$PROJECT_DIR$/Python/Tablas/Structs/func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/VoyagerLexer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="256" column="33" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
+        <state relative-caret-position="-543">
+          <caret line="191" column="56" selection-start-line="191" selection-start-column="56" selection-end-line="191" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -301,27 +309,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Tablas/dirFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/VoyagerListener.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" selection-start-line="20" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Voyager.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Echo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <marker date="1542257770000" expanded="true" signature="654:655" ph="..." />
+            <marker date="1542257770000" expanded="true" signature="678:680" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Armstrong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="-707">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1541653253000" expanded="true" signature="159:164" ph="..." />
-            <marker date="1541653253000" expanded="true" signature="240:514" ph="..." />
-            <marker date="1541653253000" expanded="true" signature="355:391" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

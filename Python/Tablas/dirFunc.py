@@ -1,4 +1,6 @@
-import Tablas.Structs.func
+from Tablas.Structs.func import func
+
+
 class dirFunc:
     dir = {}
 
@@ -12,6 +14,3 @@ class dirFunc:
 
     def addFunc(self, nom, val):
         self.dir[nom] = val
-            
-            
-    

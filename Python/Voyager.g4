@@ -68,7 +68,6 @@ operando               : 'verdadero' | 'falso' | CTE_E | CTE_F | CTE_C | llamada
 
 vector_acceso          : ID ABRE_CORCHETE exp CIERRA_CORCHETE | /*epsilon*/;
 
-
 tipo                   : ENTERO | FLOTANTE | BOOL | CHAR;
 
 /*Puntos neuralgicos de condición *///////////////////////////////////////
@@ -241,4 +240,7 @@ PROGRAMA            : P R O G R A M A;
 
 ID                  : [A-Za-z][A-Za-z0-9_]*;
 
-WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
+
+                    
+
+WS : [ \t\r\n\u000C]+ -> skip ; // skip spaces, tabs, newlines
